@@ -3,8 +3,11 @@ import hashlib
 import collections
 
 answers = {}
+filteredAnswers = {}
 questions = {}
 users = set()
+games = {0: -100}   # Default game, lowest score
+maxGameByUser = collections.defaultdict(lambda: 0)
 
 # Anonymize the answer data
 def anonymize():
@@ -25,9 +28,25 @@ def anonymize():
             gamewriter = csv.writer(output, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
             for row in gamereader:
                 hasher = hashlib.md5()
-                hasher.update(row[1]) # Note: Salt was added to this in the example provided to provide protection to anonymize the data.  Rerunning this on the data will produce different results
+                hasher.update(row[1] + '8') # Note: Salt was added to this in the example provided to provide protection to anonymize the data.  Rerunning this on the data will produce different results
                 row[1] = hasher.hexdigest()
                 gamewriter.writerow(row)
+
+def readGames():
+    with open('data/Games-anonymous.csv', 'r') as gamefile:
+        gamefile.readline()
+        gamereader = csv.reader(gamefile, delimiter=",", quotechar='"')
+        for game in gamereader:
+            games[game[0]] = game[2]
+
+
+def readMaxGamesByUser():
+    with open('data/Games-anonymous.csv', 'r') as gamefile:
+        gamefile.readline()
+        gamereader = csv.reader(gamefile, delimiter=",", quotechar='"')
+        for game in gamereader:
+            if games[maxGameByUser[game[1]]] < game[2]:
+                maxGameByUser[game[1]] = game[0]
 
 
 def readUsers():
@@ -38,13 +57,17 @@ def readUsers():
 
 def readAnswers():
     """
-    Note: Only the top score for each user is kept
+    Note: Only the answers corresponding to the top game of some user are kept
     """
+    global filteredAnswers
     with open('data/Answers-anonymous.csv','r') as answerfile:
         answerreader = csv.reader(answerfile, delimiter=",", quotechar='"')
         for row in answerreader:
             answers[row[0]] = {"id": row[0], "question_id": row[1], "player_id": row[2], "playerAnswer": row[3], 
                 "game_id": row[4], "correct": row[5]}
+    topgames = set(maxGameByUser.values())
+    filteredAnswers = {k:answers[k] for k in answers if answers[k]["game_id"] in topgames}
+
 
 def readQuestions():
     with open('data/Questions.csv','r') as questionfile:
@@ -84,21 +107,16 @@ def calculateAverageNumberOfWrongAnswers():
     pass
 
 def calculateNumberOfAnswers():
-    return len(answers.keys())
+    return len(filteredAnswers)
 
 def calculateNumberOfPlayers():
-    return len(set([answer["player_id"] for answer in answers.values()]))
-
-def calculateNumberOfGamesPerPlayer():
-    gamesByPlayer = collections.defaultdict(lambda: set())
-    for answer in answers:
-        gamesByPlayer[answer["player_id"]].add(answer["game_id"])
-
-
+    return len(users)
                 
 # Preparation
 # anonymize()
 
+readGames()
+readMaxGamesByUser()
 readUsers()
 readAnswers()
 readQuestions()
