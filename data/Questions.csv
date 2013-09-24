@@ -1,0 +1,116 @@
+text,correctAnswer,questionType
+HEAD~2,git,snippetToTech
+branch,git,snippetToTech
+checkout,git,snippetToTech
+commit,git,snippetToTech
+fetch,git,snippetToTech
+blame,git,snippetToTech
+diff,git,snippetToTech
+merge,git,snippetToTech
+rebase,git,snippetToTech
+[x for x in range(12)],python,snippetToTech
+lambda x: x+3,python,snippetToTech
+'Hello'[:2],python,snippetToTech
+if __name__=='__main__':,python,snippetToTech
+"[(x,x+1) for x in range(1,6,2)]",python,snippetToTech
+"def infinite:
+	x=1
+	yield x
+	x=x+1",python,snippetToTech
+if....elif....else....,python,snippetToTech
+#Comments,python,snippetToTech
+===,javascript,snippetToTech
+document.getElementById(foo),javascript,snippetToTech
+new XMLHTTPRequest(),javascript,snippetToTech
+Object.create(foo);,javascript,snippetToTech
+foo.prototype={bar:'bar'},javascript,snippetToTech
+(function(){...}());,javascript,snippetToTech
+JSON,javascript,snippetToTech
+1=='1',javascript,snippetToTech
+ECMAScript,javascript,snippetToTech
+CoffeeScript,javascript,snippetToTech
+prototypal inheritance,javascript,snippetToTech
+/match/.test('matches!'),javascript,snippetToTech
+(1:3:21).*2,matlab,snippetToTech
+%Comments,matlab,snippetToTech
+"[1,2;3,4;5,6;]",matlab,snippetToTech
+if... true... elseif... false... else... end,matlab,snippetToTech
+"[1,2;3,4;]*[5,6;7,8;]",matlab,snippetToTech
+"[1,2;3,4;]^2",matlab,snippetToTech
+load data.dat,matlab,snippetToTech
+type erasure,java,snippetToTech
+package org.foo,java,snippetToTech
+throws,java,snippetToTech
+oracle,java,snippetToTech
+JVM,java,snippetToTech
+a.equals(b),java,snippetToTech
+a instanceof MyClass,java,snippetToTech
+class Foo extends Bar,java,snippetToTech
+protected void finalize() throws Throwable{...},java,snippetToTech
+LINQ,c#,snippetToTech
+async/await,c#,snippetToTech
+.NET,c#,snippetToTech
+CLR,c#,snippetToTech
+"from n in numbers
+	where n<5
+	select n;",c#,snippetToTech
+int?,c#,snippetToTech
+public partial class,c#,snippetToTech
+var myList = new List<int>();,c#,snippetToTech
+namespace org.foo,c#,snippetToTech
+filesystem,tree,everydayDataStructs
+family geneology,tree,everydayDataStructs
+order of a deck of cards,list,everydayDataStructs
+steps in a recipe,list,everydayDataStructs
+back button history in browser,list,everydayDataStructs
+dictionary,map,everydayDataStructs
+phone book,map,everydayDataStructs
+people you know,set,everydayDataStructs
+bookmarks,map,everydayDataStructs
+index,map,everydayDataStructs
+linear search (average case),O(n),algorithmToBigO
+copying an array,O(n),algorithmToBigO
+bubble sort,O(n),algorithmToBigO
+binary search (average case),O(log(n)),algorithmToBigO
+insert/delete from a heap,O(log(n)),algorithmToBigO
+quicksort (average case),O(n*log(n)),algorithmToBigO
+merge sort,O(n*log(n)),algorithmToBigO
+Dijkstra's algorithm,O(n^2),algorithmToBigO
+cartesian product,O(n^2),algorithmToBigO
+Foo implements Bar,interface,snippetToOODConcept
+Foo extends Bar,inheritance,snippetToOODConcept
+Foo foo = new Foo();,constructor,snippetToOODConcept
+"public void foo(){...}
+public void foo(int bar){...}",overloading,snippetToOODConcept
+"public void foo(){
+	super();
+...
+}",overriding,snippetToOODConcept
+"public getFoo(){
+  return this.foo;
+}",encapsulation,snippetToOODConcept
+Animal puppy = new Dog();,polymorphism,snippetToOODConcept
+instance of a class,object,snippetToOODConcept
+definition of similar objects,class,snippetToOODConcept
+class with some missing implementation,abstract class,snippetToOODConcept
+fib(n)=fib(n-1)+n,recursion,generalProgrammingPrinciples
+public T head(List<T> lst){ return lst.get(0);},generic types,generalProgrammingPrinciples
+for(int foo : bar){...},iteration,generalProgrammingPrinciples
+int foo;,type declaration,generalProgrammingPrinciples
+Thread synchronization primitive,mutex,generalProgrammingPrinciples
+cleaning up unused memory,garbage collection,generalProgrammingPrinciples
+compile time type verification,static typing,generalProgrammingPrinciples
+runtime type verification,dynamic typing,generalProgrammingPrinciples
+X* p1 = new X;,c/c++,snippetToTech
+void *data;,c/c++,snippetToTech
+Foo::~Foo() {};,c/c++,snippetToTech
+C& C::(operator=(const C&);,c/c++,snippetToTech
+return *this;,c/c++,snippetToTech
+class A: public B{...};,c/c++,snippetToTech
+friend void myFunction();,c/c++,snippetToTech
+malloc,c/c++,snippetToTech
+varargin,matlab,snippetToTech
+"eye(10,10)",matlab,snippetToTech
+"function [result1, result2] = functionName(var1, var2, var3)",matlab,snippetToTech
+size(A),matlab,snippetToTech
+find(x>0),matlab,snippetToTech

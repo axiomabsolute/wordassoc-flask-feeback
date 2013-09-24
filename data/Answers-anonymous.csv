@@ -1,0 +1,1449 @@
+id,question_id,player_id,playerAnswer,game_id,correct
+1,CLR,050d5cd54ede38e88af0240b2f475617,c#,1,t
+2,X* p1 = new X;,050d5cd54ede38e88af0240b2f475617,c/c++,1,t
+3,cleaning up unused memory,050d5cd54ede38e88af0240b2f475617,garbage collection,1,t
+4,var myList = new List<int>();,050d5cd54ede38e88af0240b2f475617,c#,1,t
+5,if __name__=='__main__':,050d5cd54ede38e88af0240b2f475617,python,1,t
+6,rebase,050d5cd54ede38e88af0240b2f475617,git,1,t
+7,steps in a recipe,050d5cd54ede38e88af0240b2f475617,list,1,t
+8,phone book,050d5cd54ede38e88af0240b2f475617,map,1,t
+9,package org.foo,050d5cd54ede38e88af0240b2f475617,java,1,t
+10,throws,050d5cd54ede38e88af0240b2f475617,c#,1,f
+11,'Hello'[:2],050d5cd54ede38e88af0240b2f475617,python,1,t
+12,friend void myFunction();,050d5cd54ede38e88af0240b2f475617,c/c++,1,t
+13,back button history in browser,050d5cd54ede38e88af0240b2f475617,set,1,f
+14,"def infinite:
+	x=1
+	yield x
+	x=x+1",050d5cd54ede38e88af0240b2f475617,python,1,t
+15,[x for x in range(12)],050d5cd54ede38e88af0240b2f475617,python,1,t
+16,"[(x,x+1) for x in range(1,6,2)]",050d5cd54ede38e88af0240b2f475617,python,1,t
+17,int foo;,050d5cd54ede38e88af0240b2f475617,static typing,1,f
+18,lambda x: x+3,050d5cd54ede38e88af0240b2f475617,python,1,t
+19,#Comments,050d5cd54ede38e88af0240b2f475617,matlab,1,f
+20,copying an array,050d5cd54ede38e88af0240b2f475617,O(n),1,t
+21,Foo::~Foo() {};,050d5cd54ede38e88af0240b2f475617,c/c++,1,t
+22,type erasure,050d5cd54ede38e88af0240b2f475617,java,1,t
+23,CLR,050d5cd54ede38e88af0240b2f475617,c#,2,t
+24,X* p1 = new X;,050d5cd54ede38e88af0240b2f475617,c/c++,2,t
+25,cleaning up unused memory,050d5cd54ede38e88af0240b2f475617,garbage collection,2,t
+26,var myList = new List<int>();,050d5cd54ede38e88af0240b2f475617,c#,2,t
+27,if __name__=='__main__':,050d5cd54ede38e88af0240b2f475617,python,2,t
+28,rebase,050d5cd54ede38e88af0240b2f475617,git,2,t
+29,steps in a recipe,050d5cd54ede38e88af0240b2f475617,list,2,t
+30,phone book,050d5cd54ede38e88af0240b2f475617,map,2,t
+31,package org.foo,050d5cd54ede38e88af0240b2f475617,java,2,t
+32,throws,050d5cd54ede38e88af0240b2f475617,c#,2,f
+33,'Hello'[:2],050d5cd54ede38e88af0240b2f475617,python,2,t
+34,friend void myFunction();,050d5cd54ede38e88af0240b2f475617,c/c++,2,t
+35,back button history in browser,050d5cd54ede38e88af0240b2f475617,set,2,f
+36,"def infinite:
+	x=1
+	yield x
+	x=x+1",050d5cd54ede38e88af0240b2f475617,python,2,t
+37,[x for x in range(12)],050d5cd54ede38e88af0240b2f475617,python,2,t
+38,"[(x,x+1) for x in range(1,6,2)]",050d5cd54ede38e88af0240b2f475617,python,2,t
+39,int foo;,050d5cd54ede38e88af0240b2f475617,static typing,2,f
+40,lambda x: x+3,050d5cd54ede38e88af0240b2f475617,python,2,t
+41,#Comments,050d5cd54ede38e88af0240b2f475617,matlab,2,f
+42,copying an array,050d5cd54ede38e88af0240b2f475617,O(n),2,t
+43,Foo::~Foo() {};,050d5cd54ede38e88af0240b2f475617,c/c++,2,t
+44,type erasure,050d5cd54ede38e88af0240b2f475617,java,2,t
+45,CLR,050d5cd54ede38e88af0240b2f475617,c#,3,t
+46,X* p1 = new X;,050d5cd54ede38e88af0240b2f475617,c/c++,3,t
+47,cleaning up unused memory,050d5cd54ede38e88af0240b2f475617,garbage collection,3,t
+48,var myList = new List<int>();,050d5cd54ede38e88af0240b2f475617,c#,3,t
+49,if __name__=='__main__':,050d5cd54ede38e88af0240b2f475617,python,3,t
+50,rebase,050d5cd54ede38e88af0240b2f475617,git,3,t
+51,steps in a recipe,050d5cd54ede38e88af0240b2f475617,list,3,t
+52,phone book,050d5cd54ede38e88af0240b2f475617,map,3,t
+53,package org.foo,050d5cd54ede38e88af0240b2f475617,java,3,t
+54,throws,050d5cd54ede38e88af0240b2f475617,c#,3,f
+55,'Hello'[:2],050d5cd54ede38e88af0240b2f475617,python,3,t
+56,friend void myFunction();,050d5cd54ede38e88af0240b2f475617,c/c++,3,t
+57,back button history in browser,050d5cd54ede38e88af0240b2f475617,set,3,f
+58,"def infinite:
+	x=1
+	yield x
+	x=x+1",050d5cd54ede38e88af0240b2f475617,python,3,t
+59,[x for x in range(12)],050d5cd54ede38e88af0240b2f475617,python,3,t
+60,"[(x,x+1) for x in range(1,6,2)]",050d5cd54ede38e88af0240b2f475617,python,3,t
+61,int foo;,050d5cd54ede38e88af0240b2f475617,static typing,3,f
+62,lambda x: x+3,050d5cd54ede38e88af0240b2f475617,python,3,t
+63,#Comments,050d5cd54ede38e88af0240b2f475617,matlab,3,f
+64,copying an array,050d5cd54ede38e88af0240b2f475617,O(n),3,t
+65,Foo::~Foo() {};,050d5cd54ede38e88af0240b2f475617,c/c++,3,t
+66,type erasure,050d5cd54ede38e88af0240b2f475617,java,3,t
+67,lambda x: x+3,49961b7a851de5d05e3e15cd00211ead,javascript,4,f
+68,Thread synchronization primitive,49961b7a851de5d05e3e15cd00211ead,type declaration,4,f
+69,throws,49961b7a851de5d05e3e15cd00211ead,java,4,t
+70,Foo extends Bar,49961b7a851de5d05e3e15cd00211ead,inheritance,4,t
+71,steps in a recipe,49961b7a851de5d05e3e15cd00211ead,map,4,f
+72,Foo foo = new Foo();,49961b7a851de5d05e3e15cd00211ead,constructor,4,t
+73,copying an array,49961b7a851de5d05e3e15cd00211ead,O(log(n)),4,f
+74,Foo::~Foo() {};,49961b7a851de5d05e3e15cd00211ead,java,4,f
+75,index,49961b7a851de5d05e3e15cd00211ead,list,4,f
+76,Dijkstra's algorithm,49961b7a851de5d05e3e15cd00211ead,O(n*log(n)),4,f
+77,definition of similar objects,49961b7a851de5d05e3e15cd00211ead,class,4,t
+78,#Comments,49961b7a851de5d05e3e15cd00211ead,c/c++,4,f
+79,"public void foo(){
+	super();
+...
+}",49961b7a851de5d05e3e15cd00211ead,overriding,4,t
+80,oracle,49961b7a851de5d05e3e15cd00211ead,java,4,t
+81,phone book,49961b7a851de5d05e3e15cd00211ead,list,4,f
+82,a instanceof MyClass,49961b7a851de5d05e3e15cd00211ead,java,4,t
+83,lambda x: x+3,49961b7a851de5d05e3e15cd00211ead,javascript,5,f
+84,Thread synchronization primitive,49961b7a851de5d05e3e15cd00211ead,type declaration,5,f
+85,throws,49961b7a851de5d05e3e15cd00211ead,java,5,t
+86,Foo extends Bar,49961b7a851de5d05e3e15cd00211ead,inheritance,5,t
+87,steps in a recipe,49961b7a851de5d05e3e15cd00211ead,map,5,f
+88,Foo foo = new Foo();,49961b7a851de5d05e3e15cd00211ead,constructor,5,t
+89,copying an array,49961b7a851de5d05e3e15cd00211ead,O(log(n)),5,f
+90,Foo::~Foo() {};,49961b7a851de5d05e3e15cd00211ead,java,5,f
+91,index,49961b7a851de5d05e3e15cd00211ead,list,5,f
+92,Dijkstra's algorithm,49961b7a851de5d05e3e15cd00211ead,O(n*log(n)),5,f
+93,definition of similar objects,49961b7a851de5d05e3e15cd00211ead,class,5,t
+94,#Comments,49961b7a851de5d05e3e15cd00211ead,c/c++,5,f
+95,"public void foo(){
+	super();
+...
+}",49961b7a851de5d05e3e15cd00211ead,overriding,5,t
+96,oracle,49961b7a851de5d05e3e15cd00211ead,java,5,t
+97,phone book,49961b7a851de5d05e3e15cd00211ead,list,5,f
+98,a instanceof MyClass,49961b7a851de5d05e3e15cd00211ead,java,5,t
+770,rebase,e5cbb18b60e6036190a6287b244a73f1,git,42,t
+99,class A: public B{...};,2d3ae4713ccdb838eeb397e237fe8123,c/c++,6,t
+100,oracle,2d3ae4713ccdb838eeb397e237fe8123,java,6,t
+101,class with some missing implementation,2d3ae4713ccdb838eeb397e237fe8123,abstract class,6,t
+102,C& C::(operator=(const C&);,2d3ae4713ccdb838eeb397e237fe8123,c/c++,6,t
+103,phone book,2d3ae4713ccdb838eeb397e237fe8123,list,6,f
+104,diff,2d3ae4713ccdb838eeb397e237fe8123,c/c++,6,f
+105,type erasure,2d3ae4713ccdb838eeb397e237fe8123,java,6,t
+106,merge sort,2d3ae4713ccdb838eeb397e237fe8123,O(n*log(n)),6,t
+107,document.getElementById(foo),2d3ae4713ccdb838eeb397e237fe8123,c/c++,6,f
+108,public T head(List<T> lst){ return lst.get(0);},2d3ae4713ccdb838eeb397e237fe8123,generic types,6,t
+109,===,2d3ae4713ccdb838eeb397e237fe8123,javascript,6,t
+110,Foo::~Foo() {};,2d3ae4713ccdb838eeb397e237fe8123,javascript,6,f
+111,people you know,2d3ae4713ccdb838eeb397e237fe8123,tree,6,f
+112,(function(){...}());,2d3ae4713ccdb838eeb397e237fe8123,java,6,f
+113,JVM,2d3ae4713ccdb838eeb397e237fe8123,java,6,t
+114,Dijkstra's algorithm,2d3ae4713ccdb838eeb397e237fe8123,O(n*log(n)),6,f
+115,fetch,2d3ae4713ccdb838eeb397e237fe8123,javascript,6,f
+133,definition of similar objects,e45032eb859647c7613a642624dcede5,encapsulation,8,f
+134,family geneology,e45032eb859647c7613a642624dcede5,tree,8,t
+135,steps in a recipe,e45032eb859647c7613a642624dcede5,map,8,f
+136,Foo implements Bar,e45032eb859647c7613a642624dcede5,interface,8,t
+137,"public getFoo(){
+  return this.foo;
+}",e45032eb859647c7613a642624dcede5,encapsulation,8,t
+138,instance of a class,e45032eb859647c7613a642624dcede5,object,8,t
+139,index,e45032eb859647c7613a642624dcede5,list,8,f
+140,dictionary,e45032eb859647c7613a642624dcede5,set,8,f
+141,quicksort (average case),e45032eb859647c7613a642624dcede5,O(n*log(n)),8,t
+142,Thread synchronization primitive,e45032eb859647c7613a642624dcede5,type declaration,8,f
+143,"public void foo(){
+	super();
+...
+}",e45032eb859647c7613a642624dcede5,encapsulation,8,f
+144,public T head(List<T> lst){ return lst.get(0);},e45032eb859647c7613a642624dcede5,generic types,8,t
+145,Foo foo = new Foo();,e45032eb859647c7613a642624dcede5,class,8,f
+146,bubble sort,e45032eb859647c7613a642624dcede5,O(n*log(n)),8,f
+147,runtime type verification,e45032eb859647c7613a642624dcede5,dynamic typing,8,t
+148,definition of similar objects,e45032eb859647c7613a642624dcede5,encapsulation,9,f
+149,family geneology,e45032eb859647c7613a642624dcede5,tree,9,t
+150,steps in a recipe,e45032eb859647c7613a642624dcede5,map,9,f
+151,Foo implements Bar,e45032eb859647c7613a642624dcede5,interface,9,t
+152,"public getFoo(){
+  return this.foo;
+}",e45032eb859647c7613a642624dcede5,encapsulation,9,t
+153,instance of a class,e45032eb859647c7613a642624dcede5,object,9,t
+154,index,e45032eb859647c7613a642624dcede5,list,9,f
+155,dictionary,e45032eb859647c7613a642624dcede5,set,9,f
+156,quicksort (average case),e45032eb859647c7613a642624dcede5,O(n*log(n)),9,t
+157,Thread synchronization primitive,e45032eb859647c7613a642624dcede5,type declaration,9,f
+158,"public void foo(){
+	super();
+...
+}",e45032eb859647c7613a642624dcede5,encapsulation,9,f
+159,public T head(List<T> lst){ return lst.get(0);},e45032eb859647c7613a642624dcede5,generic types,9,t
+160,Foo foo = new Foo();,e45032eb859647c7613a642624dcede5,class,9,f
+161,bubble sort,e45032eb859647c7613a642624dcede5,O(n*log(n)),9,f
+162,runtime type verification,e45032eb859647c7613a642624dcede5,dynamic typing,9,t
+207,class Foo extends Bar,3bc941d924a9f22ba306b433cdc9911f,java,12,t
+208,public T head(List<T> lst){ return lst.get(0);},3bc941d924a9f22ba306b433cdc9911f,type declaration,12,f
+209,C& C::(operator=(const C&);,3bc941d924a9f22ba306b433cdc9911f,c/c++,12,t
+210,return *this;,3bc941d924a9f22ba306b433cdc9911f,c/c++,12,t
+211,linear search (average case),3bc941d924a9f22ba306b433cdc9911f,O(n),12,t
+212,oracle,3bc941d924a9f22ba306b433cdc9911f,java,12,t
+213,steps in a recipe,3bc941d924a9f22ba306b433cdc9911f,list,12,t
+214,for(int foo : bar){...},3bc941d924a9f22ba306b433cdc9911f,iteration,12,t
+215,people you know,3bc941d924a9f22ba306b433cdc9911f,set,12,t
+216,dictionary,3bc941d924a9f22ba306b433cdc9911f,map,12,t
+217,package org.foo,3bc941d924a9f22ba306b433cdc9911f,python,12,f
+218,copying an array,3bc941d924a9f22ba306b433cdc9911f,O(n),12,t
+219,"public void foo(){
+	super();
+...
+}",3bc941d924a9f22ba306b433cdc9911f,inheritance,12,f
+220,type erasure,3bc941d924a9f22ba306b433cdc9911f,python,12,f
+235,a.equals(b),c8db493284916b6eaf9d2b8a16e89efe,java,14,t
+236,int?,c8db493284916b6eaf9d2b8a16e89efe,c#,14,t
+237,JVM,c8db493284916b6eaf9d2b8a16e89efe,c#,14,f
+238,oracle,c8db493284916b6eaf9d2b8a16e89efe,javascript,14,f
+239,throws,c8db493284916b6eaf9d2b8a16e89efe,java,14,t
+240,Dijkstra's algorithm,c8db493284916b6eaf9d2b8a16e89efe,O(log(n)),14,f
+241,CLR,c8db493284916b6eaf9d2b8a16e89efe,c#,14,t
+242,instance of a class,c8db493284916b6eaf9d2b8a16e89efe,object,14,t
+243,"public getFoo(){
+  return this.foo;
+}",c8db493284916b6eaf9d2b8a16e89efe,inheritance,14,f
+244,quicksort (average case),c8db493284916b6eaf9d2b8a16e89efe,O(log(n)),14,f
+245,namespace org.foo,c8db493284916b6eaf9d2b8a16e89efe,c#,14,t
+246,Foo extends Bar,c8db493284916b6eaf9d2b8a16e89efe,inheritance,14,t
+247,LINQ,c8db493284916b6eaf9d2b8a16e89efe,c#,14,t
+248,steps in a recipe,c8db493284916b6eaf9d2b8a16e89efe,list,14,t
+249,filesystem,c8db493284916b6eaf9d2b8a16e89efe,map,14,f
+250,order of a deck of cards,c8db493284916b6eaf9d2b8a16e89efe,list,14,t
+251,dictionary,c8db493284916b6eaf9d2b8a16e89efe,list,14,f
+252,async/await,c8db493284916b6eaf9d2b8a16e89efe,c#,14,t
+253,public partial class,c8db493284916b6eaf9d2b8a16e89efe,java,14,f
+254,back button history in browser,c8db493284916b6eaf9d2b8a16e89efe,tree,14,f
+255,insert/delete from a heap,c8db493284916b6eaf9d2b8a16e89efe,O(n),14,f
+256,linear search (average case),c8db493284916b6eaf9d2b8a16e89efe,O(n),14,t
+257,var myList = new List<int>();,c8db493284916b6eaf9d2b8a16e89efe,java,14,f
+258,copying an array,c8db493284916b6eaf9d2b8a16e89efe,O(n),14,t
+259,int foo;,c8db493284916b6eaf9d2b8a16e89efe,type declaration,14,t
+260,for(int foo : bar){...},c8db493284916b6eaf9d2b8a16e89efe,iteration,14,t
+261,index,c8db493284916b6eaf9d2b8a16e89efe,list,14,f
+262,bubble sort,c8db493284916b6eaf9d2b8a16e89efe,O(log(n)),14,f
+116,class A: public B{...};,2d3ae4713ccdb838eeb397e237fe8123,c/c++,7,t
+117,oracle,2d3ae4713ccdb838eeb397e237fe8123,java,7,t
+118,class with some missing implementation,2d3ae4713ccdb838eeb397e237fe8123,abstract class,7,t
+119,C& C::(operator=(const C&);,2d3ae4713ccdb838eeb397e237fe8123,c/c++,7,t
+120,phone book,2d3ae4713ccdb838eeb397e237fe8123,list,7,f
+121,diff,2d3ae4713ccdb838eeb397e237fe8123,c/c++,7,f
+122,type erasure,2d3ae4713ccdb838eeb397e237fe8123,java,7,t
+123,merge sort,2d3ae4713ccdb838eeb397e237fe8123,O(n*log(n)),7,t
+124,document.getElementById(foo),2d3ae4713ccdb838eeb397e237fe8123,c/c++,7,f
+125,public T head(List<T> lst){ return lst.get(0);},2d3ae4713ccdb838eeb397e237fe8123,generic types,7,t
+126,===,2d3ae4713ccdb838eeb397e237fe8123,javascript,7,t
+127,Foo::~Foo() {};,2d3ae4713ccdb838eeb397e237fe8123,javascript,7,f
+128,people you know,2d3ae4713ccdb838eeb397e237fe8123,tree,7,f
+129,(function(){...}());,2d3ae4713ccdb838eeb397e237fe8123,java,7,f
+130,JVM,2d3ae4713ccdb838eeb397e237fe8123,java,7,t
+131,Dijkstra's algorithm,2d3ae4713ccdb838eeb397e237fe8123,O(n*log(n)),7,f
+132,fetch,2d3ae4713ccdb838eeb397e237fe8123,javascript,7,f
+163,return *this;,e5cbb18b60e6036190a6287b244a73f1,c/c++,10,t
+164,steps in a recipe,e5cbb18b60e6036190a6287b244a73f1,list,10,t
+165,fib(n)=fib(n-1)+n,e5cbb18b60e6036190a6287b244a73f1,recursion,10,t
+166,phone book,e5cbb18b60e6036190a6287b244a73f1,map,10,t
+167,if __name__=='__main__':,e5cbb18b60e6036190a6287b244a73f1,python,10,t
+168,cartesian product,e5cbb18b60e6036190a6287b244a73f1,O(n),10,f
+169,JVM,e5cbb18b60e6036190a6287b244a73f1,java,10,t
+170,throws,e5cbb18b60e6036190a6287b244a73f1,c#,10,f
+171,/match/.test('matches!'),e5cbb18b60e6036190a6287b244a73f1,javascript,10,t
+172,===,e5cbb18b60e6036190a6287b244a73f1,javascript,10,t
+173,type erasure,e5cbb18b60e6036190a6287b244a73f1,java,10,t
+174,friend void myFunction();,e5cbb18b60e6036190a6287b244a73f1,javascript,10,f
+175,int?,e5cbb18b60e6036190a6287b244a73f1,javascript,10,f
+176,int foo;,e5cbb18b60e6036190a6287b244a73f1,type declaration,10,t
+177,bookmarks,e5cbb18b60e6036190a6287b244a73f1,map,10,t
+178,package org.foo,e5cbb18b60e6036190a6287b244a73f1,c/c++,10,f
+179,bubble sort,e5cbb18b60e6036190a6287b244a73f1,O(log(n)),10,f
+180,linear search (average case),e5cbb18b60e6036190a6287b244a73f1,O(n),10,t
+181,commit,e5cbb18b60e6036190a6287b244a73f1,git,10,t
+182,insert/delete from a heap,e5cbb18b60e6036190a6287b244a73f1,O(log(n)),10,t
+183,merge sort,e5cbb18b60e6036190a6287b244a73f1,O(log(n)),10,f
+184,Animal puppy = new Dog();,e5cbb18b60e6036190a6287b244a73f1,polymorphism,10,t
+263,a.equals(b),c8db493284916b6eaf9d2b8a16e89efe,java,15,t
+264,int?,c8db493284916b6eaf9d2b8a16e89efe,c#,15,t
+265,JVM,c8db493284916b6eaf9d2b8a16e89efe,c#,15,f
+266,oracle,c8db493284916b6eaf9d2b8a16e89efe,javascript,15,f
+267,throws,c8db493284916b6eaf9d2b8a16e89efe,java,15,t
+268,Dijkstra's algorithm,c8db493284916b6eaf9d2b8a16e89efe,O(log(n)),15,f
+269,CLR,c8db493284916b6eaf9d2b8a16e89efe,c#,15,t
+270,instance of a class,c8db493284916b6eaf9d2b8a16e89efe,object,15,t
+271,"public getFoo(){
+  return this.foo;
+}",c8db493284916b6eaf9d2b8a16e89efe,inheritance,15,f
+272,quicksort (average case),c8db493284916b6eaf9d2b8a16e89efe,O(log(n)),15,f
+273,namespace org.foo,c8db493284916b6eaf9d2b8a16e89efe,c#,15,t
+274,Foo extends Bar,c8db493284916b6eaf9d2b8a16e89efe,inheritance,15,t
+275,LINQ,c8db493284916b6eaf9d2b8a16e89efe,c#,15,t
+276,steps in a recipe,c8db493284916b6eaf9d2b8a16e89efe,list,15,t
+277,filesystem,c8db493284916b6eaf9d2b8a16e89efe,map,15,f
+278,order of a deck of cards,c8db493284916b6eaf9d2b8a16e89efe,list,15,t
+279,dictionary,c8db493284916b6eaf9d2b8a16e89efe,list,15,f
+280,async/await,c8db493284916b6eaf9d2b8a16e89efe,c#,15,t
+281,public partial class,c8db493284916b6eaf9d2b8a16e89efe,java,15,f
+282,back button history in browser,c8db493284916b6eaf9d2b8a16e89efe,tree,15,f
+283,insert/delete from a heap,c8db493284916b6eaf9d2b8a16e89efe,O(n),15,f
+284,linear search (average case),c8db493284916b6eaf9d2b8a16e89efe,O(n),15,t
+285,var myList = new List<int>();,c8db493284916b6eaf9d2b8a16e89efe,java,15,f
+286,copying an array,c8db493284916b6eaf9d2b8a16e89efe,O(n),15,t
+287,int foo;,c8db493284916b6eaf9d2b8a16e89efe,type declaration,15,t
+288,for(int foo : bar){...},c8db493284916b6eaf9d2b8a16e89efe,iteration,15,t
+289,index,c8db493284916b6eaf9d2b8a16e89efe,list,15,f
+290,bubble sort,c8db493284916b6eaf9d2b8a16e89efe,O(log(n)),15,f
+291,"def infinite:
+	x=1
+	yield x
+	x=x+1",034c295f4e742adf843fad7ac06af985,c#,16,f
+292,throws,034c295f4e742adf843fad7ac06af985,java,16,t
+293,"public void foo(){...}
+public void foo(int bar){...}",034c295f4e742adf843fad7ac06af985,overloading,16,t
+294,int foo;,034c295f4e742adf843fad7ac06af985,static typing,16,f
+295,protected void finalize() throws Throwable{...},034c295f4e742adf843fad7ac06af985,java,16,t
+296,instance of a class,034c295f4e742adf843fad7ac06af985,object,16,t
+297,phone book,034c295f4e742adf843fad7ac06af985,map,16,t
+298,bookmarks,034c295f4e742adf843fad7ac06af985,list,16,f
+299,JVM,034c295f4e742adf843fad7ac06af985,java,16,t
+300,type erasure,034c295f4e742adf843fad7ac06af985,c#,16,f
+301,Foo implements Bar,034c295f4e742adf843fad7ac06af985,inheritance,16,f
+302,a.equals(b),034c295f4e742adf843fad7ac06af985,java,16,t
+303,Foo extends Bar,034c295f4e742adf843fad7ac06af985,inheritance,16,t
+304,if....elif....else....,034c295f4e742adf843fad7ac06af985,c#,16,f
+305,"public getFoo(){
+  return this.foo;
+}",034c295f4e742adf843fad7ac06af985,encapsulation,16,t
+306,for(int foo : bar){...},034c295f4e742adf843fad7ac06af985,iteration,16,t
+307,definition of similar objects,034c295f4e742adf843fad7ac06af985,class,16,t
+308,index,034c295f4e742adf843fad7ac06af985,tree,16,f
+309,"def infinite:
+	x=1
+	yield x
+	x=x+1",034c295f4e742adf843fad7ac06af985,c#,17,f
+310,throws,034c295f4e742adf843fad7ac06af985,java,17,t
+311,"public void foo(){...}
+public void foo(int bar){...}",034c295f4e742adf843fad7ac06af985,overloading,17,t
+312,int foo;,034c295f4e742adf843fad7ac06af985,static typing,17,f
+313,protected void finalize() throws Throwable{...},034c295f4e742adf843fad7ac06af985,java,17,t
+314,instance of a class,034c295f4e742adf843fad7ac06af985,object,17,t
+315,phone book,034c295f4e742adf843fad7ac06af985,map,17,t
+316,bookmarks,034c295f4e742adf843fad7ac06af985,list,17,f
+317,JVM,034c295f4e742adf843fad7ac06af985,java,17,t
+318,type erasure,034c295f4e742adf843fad7ac06af985,c#,17,f
+319,Foo implements Bar,034c295f4e742adf843fad7ac06af985,inheritance,17,f
+320,a.equals(b),034c295f4e742adf843fad7ac06af985,java,17,t
+185,"public void foo(){
+	super();
+...
+}",dfdba8412f65696faa263d431a13a44d,polymorphism,11,f
+186,phone book,dfdba8412f65696faa263d431a13a44d,map,11,t
+187,package org.foo,dfdba8412f65696faa263d431a13a44d,c/c++,11,f
+188,a.equals(b),dfdba8412f65696faa263d431a13a44d,c/c++,11,f
+189,throws,dfdba8412f65696faa263d431a13a44d,c/c++,11,f
+190,Thread synchronization primitive,dfdba8412f65696faa263d431a13a44d,static typing,11,f
+191,find(x>0),dfdba8412f65696faa263d431a13a44d,matlab,11,t
+192,malloc,dfdba8412f65696faa263d431a13a44d,python,11,f
+193,binary search (average case),dfdba8412f65696faa263d431a13a44d,O(log(n)),11,t
+194,"[1,2;3,4;5,6;]",dfdba8412f65696faa263d431a13a44d,matlab,11,t
+195,friend void myFunction();,dfdba8412f65696faa263d431a13a44d,javascript,11,f
+196,steps in a recipe,dfdba8412f65696faa263d431a13a44d,list,11,t
+197,a instanceof MyClass,dfdba8412f65696faa263d431a13a44d,java,11,t
+198,void *data;,dfdba8412f65696faa263d431a13a44d,c/c++,11,t
+199,protected void finalize() throws Throwable{...},dfdba8412f65696faa263d431a13a44d,java,11,t
+200,index,dfdba8412f65696faa263d431a13a44d,list,11,f
+201,quicksort (average case),dfdba8412f65696faa263d431a13a44d,O(n),11,f
+202,order of a deck of cards,dfdba8412f65696faa263d431a13a44d,list,11,t
+203,%Comments,dfdba8412f65696faa263d431a13a44d,matlab,11,t
+204,class Foo extends Bar,dfdba8412f65696faa263d431a13a44d,java,11,t
+205,back button history in browser,dfdba8412f65696faa263d431a13a44d,list,11,t
+206,copying an array,dfdba8412f65696faa263d431a13a44d,O(log(n)),11,f
+221,class Foo extends Bar,3bc941d924a9f22ba306b433cdc9911f,java,13,t
+222,public T head(List<T> lst){ return lst.get(0);},3bc941d924a9f22ba306b433cdc9911f,type declaration,13,f
+223,C& C::(operator=(const C&);,3bc941d924a9f22ba306b433cdc9911f,c/c++,13,t
+224,return *this;,3bc941d924a9f22ba306b433cdc9911f,c/c++,13,t
+225,linear search (average case),3bc941d924a9f22ba306b433cdc9911f,O(n),13,t
+226,oracle,3bc941d924a9f22ba306b433cdc9911f,java,13,t
+227,steps in a recipe,3bc941d924a9f22ba306b433cdc9911f,list,13,t
+228,for(int foo : bar){...},3bc941d924a9f22ba306b433cdc9911f,iteration,13,t
+229,people you know,3bc941d924a9f22ba306b433cdc9911f,set,13,t
+230,dictionary,3bc941d924a9f22ba306b433cdc9911f,map,13,t
+231,package org.foo,3bc941d924a9f22ba306b433cdc9911f,python,13,f
+232,copying an array,3bc941d924a9f22ba306b433cdc9911f,O(n),13,t
+233,"public void foo(){
+	super();
+...
+}",3bc941d924a9f22ba306b433cdc9911f,inheritance,13,f
+234,type erasure,3bc941d924a9f22ba306b433cdc9911f,python,13,f
+321,Foo extends Bar,034c295f4e742adf843fad7ac06af985,inheritance,17,t
+322,if....elif....else....,034c295f4e742adf843fad7ac06af985,c#,17,f
+323,"public getFoo(){
+  return this.foo;
+}",034c295f4e742adf843fad7ac06af985,encapsulation,17,t
+324,for(int foo : bar){...},034c295f4e742adf843fad7ac06af985,iteration,17,t
+325,definition of similar objects,034c295f4e742adf843fad7ac06af985,class,17,t
+326,index,034c295f4e742adf843fad7ac06af985,tree,17,f
+327,return *this;,e91578ac43f2e09b2c60b54400b6da32,java,18,f
+328,C& C::(operator=(const C&);,e91578ac43f2e09b2c60b54400b6da32,c/c++,18,t
+329,index,e91578ac43f2e09b2c60b54400b6da32,map,18,t
+330,class Foo extends Bar,e91578ac43f2e09b2c60b54400b6da32,c#,18,f
+331,"public getFoo(){
+  return this.foo;
+}",e91578ac43f2e09b2c60b54400b6da32,polymorphism,18,f
+332,public T head(List<T> lst){ return lst.get(0);},e91578ac43f2e09b2c60b54400b6da32,generic types,18,t
+333,copying an array,e91578ac43f2e09b2c60b54400b6da32,O(n),18,t
+334,cleaning up unused memory,e91578ac43f2e09b2c60b54400b6da32,garbage collection,18,t
+335,back button history in browser,e91578ac43f2e09b2c60b54400b6da32,map,18,f
+336,type erasure,e91578ac43f2e09b2c60b54400b6da32,javascript,18,f
+337,friend void myFunction();,e91578ac43f2e09b2c60b54400b6da32,java,18,f
+338,throws,e91578ac43f2e09b2c60b54400b6da32,java,18,t
+339,for(int foo : bar){...},e91578ac43f2e09b2c60b54400b6da32,dynamic typing,18,f
+340,oracle,e91578ac43f2e09b2c60b54400b6da32,python,18,f
+341,malloc,e91578ac43f2e09b2c60b54400b6da32,c/c++,18,t
+342,varargin,e91578ac43f2e09b2c60b54400b6da32,matlab,18,t
+343,"function [result1, result2] = functionName(var1, var2, var3)",e91578ac43f2e09b2c60b54400b6da32,java,18,f
+344,"public void foo(){...}
+public void foo(int bar){...}",e91578ac43f2e09b2c60b54400b6da32,abstract class,18,f
+345,insert/delete from a heap,f740d2fe24b1cdafcd9784f47afb6922,O(n),19,f
+346,compile time type verification,f740d2fe24b1cdafcd9784f47afb6922,garbage collection,19,f
+347,quicksort (average case),f740d2fe24b1cdafcd9784f47afb6922,O(n^2),19,f
+348,"public getFoo(){
+  return this.foo;
+}",f740d2fe24b1cdafcd9784f47afb6922,encapsulation,19,t
+349,return *this;,f740d2fe24b1cdafcd9784f47afb6922,python,19,f
+350,a.equals(b),f740d2fe24b1cdafcd9784f47afb6922,javascript,19,f
+351,protected void finalize() throws Throwable{...},f740d2fe24b1cdafcd9784f47afb6922,java,19,t
+352,fib(n)=fib(n-1)+n,f740d2fe24b1cdafcd9784f47afb6922,recursion,19,t
+353,Foo foo = new Foo();,f740d2fe24b1cdafcd9784f47afb6922,constructor,19,t
+354,Dijkstra's algorithm,f740d2fe24b1cdafcd9784f47afb6922,O(log(n)),19,f
+355,linear search (average case),f740d2fe24b1cdafcd9784f47afb6922,O(n*log(n)),19,f
+356,index,f740d2fe24b1cdafcd9784f47afb6922,list,19,f
+357,Foo extends Bar,f740d2fe24b1cdafcd9784f47afb6922,inheritance,19,t
+358,int foo;,f740d2fe24b1cdafcd9784f47afb6922,type declaration,19,t
+359,X* p1 = new X;,f740d2fe24b1cdafcd9784f47afb6922,javascript,19,f
+360,family geneology,6a65416a01463077899ee82761917ff6,tree,20,t
+361,compile time type verification,6a65416a01463077899ee82761917ff6,garbage collection,20,f
+362,cartesian product,6a65416a01463077899ee82761917ff6,O(n),20,f
+363,runtime type verification,6a65416a01463077899ee82761917ff6,dynamic typing,20,t
+364,phone book,6a65416a01463077899ee82761917ff6,list,20,f
+365,steps in a recipe,6a65416a01463077899ee82761917ff6,set,20,f
+366,definition of similar objects,6a65416a01463077899ee82761917ff6,encapsulation,20,f
+367,linear search (average case),6a65416a01463077899ee82761917ff6,O(log(n)),20,f
+368,filesystem,6a65416a01463077899ee82761917ff6,tree,20,t
+369,class with some missing implementation,6a65416a01463077899ee82761917ff6,inheritance,20,f
+370,back button history in browser,6a65416a01463077899ee82761917ff6,list,20,t
+371,Thread synchronization primitive,6a65416a01463077899ee82761917ff6,generic types,20,f
+372,Animal puppy = new Dog();,6a65416a01463077899ee82761917ff6,object,20,f
+373,instance of a class,6a65416a01463077899ee82761917ff6,object,20,t
+374,merge sort,6a65416a01463077899ee82761917ff6,O(n),20,f
+375,for(int foo : bar){...},6a65416a01463077899ee82761917ff6,iteration,20,t
+376,Foo implements Bar,6a65416a01463077899ee82761917ff6,interface,20,t
+377,cleaning up unused memory,6a65416a01463077899ee82761917ff6,garbage collection,20,t
+378,family geneology,6a65416a01463077899ee82761917ff6,tree,21,t
+379,compile time type verification,6a65416a01463077899ee82761917ff6,garbage collection,21,f
+380,cartesian product,6a65416a01463077899ee82761917ff6,O(n),21,f
+381,runtime type verification,6a65416a01463077899ee82761917ff6,dynamic typing,21,t
+382,phone book,6a65416a01463077899ee82761917ff6,list,21,f
+383,steps in a recipe,6a65416a01463077899ee82761917ff6,set,21,f
+384,definition of similar objects,6a65416a01463077899ee82761917ff6,encapsulation,21,f
+385,linear search (average case),6a65416a01463077899ee82761917ff6,O(log(n)),21,f
+386,filesystem,6a65416a01463077899ee82761917ff6,tree,21,t
+387,class with some missing implementation,6a65416a01463077899ee82761917ff6,inheritance,21,f
+388,back button history in browser,6a65416a01463077899ee82761917ff6,list,21,t
+389,Thread synchronization primitive,6a65416a01463077899ee82761917ff6,generic types,21,f
+390,Animal puppy = new Dog();,6a65416a01463077899ee82761917ff6,object,21,f
+391,instance of a class,6a65416a01463077899ee82761917ff6,object,21,t
+392,merge sort,6a65416a01463077899ee82761917ff6,O(n),21,f
+393,for(int foo : bar){...},6a65416a01463077899ee82761917ff6,iteration,21,t
+394,Foo implements Bar,6a65416a01463077899ee82761917ff6,interface,21,t
+395,cleaning up unused memory,6a65416a01463077899ee82761917ff6,garbage collection,21,t
+396,people you know,4c9a8755404b145a7fa9198fcd6ac4ab,list,22,f
+397,bookmarks,4c9a8755404b145a7fa9198fcd6ac4ab,list,22,f
+398,bubble sort,4c9a8755404b145a7fa9198fcd6ac4ab,O(n*log(n)),22,f
+399,Dijkstra's algorithm,4c9a8755404b145a7fa9198fcd6ac4ab,O(log(n)),22,f
+400,definition of similar objects,4c9a8755404b145a7fa9198fcd6ac4ab,class,22,t
+401,Animal puppy = new Dog();,4c9a8755404b145a7fa9198fcd6ac4ab,polymorphism,22,t
+402,linear search (average case),4c9a8755404b145a7fa9198fcd6ac4ab,O(n),22,t
+403,int foo;,4c9a8755404b145a7fa9198fcd6ac4ab,type declaration,22,t
+404,back button history in browser,4c9a8755404b145a7fa9198fcd6ac4ab,map,22,f
+405,Foo implements Bar,4c9a8755404b145a7fa9198fcd6ac4ab,interface,22,t
+406,Foo foo = new Foo();,4c9a8755404b145a7fa9198fcd6ac4ab,constructor,22,t
+407,copying an array,4c9a8755404b145a7fa9198fcd6ac4ab,O(n^2),22,f
+408,runtime type verification,4c9a8755404b145a7fa9198fcd6ac4ab,generic types,22,f
+409,family geneology,4c9a8755404b145a7fa9198fcd6ac4ab,tree,22,t
+410,"public void foo(){
+	super();
+...
+}",4c9a8755404b145a7fa9198fcd6ac4ab,overriding,22,t
+411,people you know,4c9a8755404b145a7fa9198fcd6ac4ab,list,23,f
+412,bookmarks,4c9a8755404b145a7fa9198fcd6ac4ab,list,23,f
+413,bubble sort,4c9a8755404b145a7fa9198fcd6ac4ab,O(n*log(n)),23,f
+414,Dijkstra's algorithm,4c9a8755404b145a7fa9198fcd6ac4ab,O(log(n)),23,f
+415,definition of similar objects,4c9a8755404b145a7fa9198fcd6ac4ab,class,23,t
+416,Animal puppy = new Dog();,4c9a8755404b145a7fa9198fcd6ac4ab,polymorphism,23,t
+417,linear search (average case),4c9a8755404b145a7fa9198fcd6ac4ab,O(n),23,t
+418,int foo;,4c9a8755404b145a7fa9198fcd6ac4ab,type declaration,23,t
+419,back button history in browser,4c9a8755404b145a7fa9198fcd6ac4ab,map,23,f
+420,Foo implements Bar,4c9a8755404b145a7fa9198fcd6ac4ab,interface,23,t
+421,Foo foo = new Foo();,4c9a8755404b145a7fa9198fcd6ac4ab,constructor,23,t
+422,copying an array,4c9a8755404b145a7fa9198fcd6ac4ab,O(n^2),23,f
+423,runtime type verification,4c9a8755404b145a7fa9198fcd6ac4ab,generic types,23,f
+424,family geneology,4c9a8755404b145a7fa9198fcd6ac4ab,tree,23,t
+425,"public void foo(){
+	super();
+...
+}",4c9a8755404b145a7fa9198fcd6ac4ab,overriding,23,t
+426,"function [result1, result2] = functionName(var1, var2, var3)",cf41e86b278d7037051064daa39cccd2,matlab,24,t
+427,"eye(10,10)",cf41e86b278d7037051064daa39cccd2,matlab,24,t
+428,"[1,2;3,4;5,6;]",cf41e86b278d7037051064daa39cccd2,matlab,24,t
+429,throws,cf41e86b278d7037051064daa39cccd2,java,24,t
+430,"[1,2;3,4;]*[5,6;7,8;]",cf41e86b278d7037051064daa39cccd2,matlab,24,t
+431,linear search (average case),cf41e86b278d7037051064daa39cccd2,O(log(n)),24,f
+432,%Comments,cf41e86b278d7037051064daa39cccd2,matlab,24,t
+433,steps in a recipe,cf41e86b278d7037051064daa39cccd2,list,24,t
+434,Thread synchronization primitive,cf41e86b278d7037051064daa39cccd2,recursion,24,f
+435,fib(n)=fib(n-1)+n,cf41e86b278d7037051064daa39cccd2,recursion,24,t
+436,filesystem,cf41e86b278d7037051064daa39cccd2,tree,24,t
+437,for(int foo : bar){...},cf41e86b278d7037051064daa39cccd2,iteration,24,t
+438,people you know,cf41e86b278d7037051064daa39cccd2,set,24,t
+439,"function [result1, result2] = functionName(var1, var2, var3)",cf41e86b278d7037051064daa39cccd2,matlab,25,t
+440,"eye(10,10)",cf41e86b278d7037051064daa39cccd2,matlab,25,t
+441,"[1,2;3,4;5,6;]",cf41e86b278d7037051064daa39cccd2,matlab,25,t
+442,throws,cf41e86b278d7037051064daa39cccd2,java,25,t
+443,"[1,2;3,4;]*[5,6;7,8;]",cf41e86b278d7037051064daa39cccd2,matlab,25,t
+444,linear search (average case),cf41e86b278d7037051064daa39cccd2,O(log(n)),25,f
+445,%Comments,cf41e86b278d7037051064daa39cccd2,matlab,25,t
+446,steps in a recipe,cf41e86b278d7037051064daa39cccd2,list,25,t
+447,Thread synchronization primitive,cf41e86b278d7037051064daa39cccd2,recursion,25,f
+448,fib(n)=fib(n-1)+n,cf41e86b278d7037051064daa39cccd2,recursion,25,t
+449,filesystem,cf41e86b278d7037051064daa39cccd2,tree,25,t
+450,for(int foo : bar){...},cf41e86b278d7037051064daa39cccd2,iteration,25,t
+451,people you know,cf41e86b278d7037051064daa39cccd2,set,25,t
+452,bookmarks,603254470fc3a5c5ab77f4620e822d48,map,26,t
+453,quicksort (average case),603254470fc3a5c5ab77f4620e822d48,O(n*log(n)),26,t
+454,phone book,603254470fc3a5c5ab77f4620e822d48,map,26,t
+455,void *data;,603254470fc3a5c5ab77f4620e822d48,git,26,f
+456,copying an array,603254470fc3a5c5ab77f4620e822d48,O(n),26,t
+457,runtime type verification,603254470fc3a5c5ab77f4620e822d48,type declaration,26,f
+458,linear search (average case),603254470fc3a5c5ab77f4620e822d48,O(n^2),26,f
+459,a instanceof MyClass,603254470fc3a5c5ab77f4620e822d48,java,26,t
+460,"[1,2;3,4;]^2",603254470fc3a5c5ab77f4620e822d48,matlab,26,t
+461,Thread synchronization primitive,603254470fc3a5c5ab77f4620e822d48,type declaration,26,f
+462,definition of similar objects,603254470fc3a5c5ab77f4620e822d48,class,26,t
+463,load data.dat,603254470fc3a5c5ab77f4620e822d48,c#,26,f
+464,cleaning up unused memory,603254470fc3a5c5ab77f4620e822d48,garbage collection,26,t
+465,order of a deck of cards,603254470fc3a5c5ab77f4620e822d48,set,26,f
+466,int foo;,603254470fc3a5c5ab77f4620e822d48,type declaration,26,t
+467,insert/delete from a heap,603254470fc3a5c5ab77f4620e822d48,O(n),26,f
+468,find(x>0),603254470fc3a5c5ab77f4620e822d48,javascript,26,f
+469,class A: public B{...};,603254470fc3a5c5ab77f4620e822d48,java,26,f
+470,"[1,2;3,4;5,6;]",603254470fc3a5c5ab77f4620e822d48,matlab,26,t
+471,varargin,603254470fc3a5c5ab77f4620e822d48,git,26,f
+472,bookmarks,603254470fc3a5c5ab77f4620e822d48,map,27,t
+473,quicksort (average case),603254470fc3a5c5ab77f4620e822d48,O(n*log(n)),27,t
+474,phone book,603254470fc3a5c5ab77f4620e822d48,map,27,t
+475,void *data;,603254470fc3a5c5ab77f4620e822d48,git,27,f
+476,copying an array,603254470fc3a5c5ab77f4620e822d48,O(n),27,t
+477,runtime type verification,603254470fc3a5c5ab77f4620e822d48,type declaration,27,f
+478,linear search (average case),603254470fc3a5c5ab77f4620e822d48,O(n^2),27,f
+479,a instanceof MyClass,603254470fc3a5c5ab77f4620e822d48,java,27,t
+480,"[1,2;3,4;]^2",603254470fc3a5c5ab77f4620e822d48,matlab,27,t
+481,Thread synchronization primitive,603254470fc3a5c5ab77f4620e822d48,type declaration,27,f
+482,definition of similar objects,603254470fc3a5c5ab77f4620e822d48,class,27,t
+483,load data.dat,603254470fc3a5c5ab77f4620e822d48,c#,27,f
+484,cleaning up unused memory,603254470fc3a5c5ab77f4620e822d48,garbage collection,27,t
+485,order of a deck of cards,603254470fc3a5c5ab77f4620e822d48,set,27,f
+486,int foo;,603254470fc3a5c5ab77f4620e822d48,type declaration,27,t
+487,insert/delete from a heap,603254470fc3a5c5ab77f4620e822d48,O(n),27,f
+488,find(x>0),603254470fc3a5c5ab77f4620e822d48,javascript,27,f
+489,class A: public B{...};,603254470fc3a5c5ab77f4620e822d48,java,27,f
+490,"[1,2;3,4;5,6;]",603254470fc3a5c5ab77f4620e822d48,matlab,27,t
+491,varargin,603254470fc3a5c5ab77f4620e822d48,git,27,f
+492,bookmarks,603254470fc3a5c5ab77f4620e822d48,map,28,t
+493,quicksort (average case),603254470fc3a5c5ab77f4620e822d48,O(n*log(n)),28,t
+494,phone book,603254470fc3a5c5ab77f4620e822d48,map,28,t
+495,void *data;,603254470fc3a5c5ab77f4620e822d48,git,28,f
+496,copying an array,603254470fc3a5c5ab77f4620e822d48,O(n),28,t
+497,runtime type verification,603254470fc3a5c5ab77f4620e822d48,type declaration,28,f
+498,linear search (average case),603254470fc3a5c5ab77f4620e822d48,O(n^2),28,f
+499,a instanceof MyClass,603254470fc3a5c5ab77f4620e822d48,java,28,t
+500,"[1,2;3,4;]^2",603254470fc3a5c5ab77f4620e822d48,matlab,28,t
+501,Thread synchronization primitive,603254470fc3a5c5ab77f4620e822d48,type declaration,28,f
+502,definition of similar objects,603254470fc3a5c5ab77f4620e822d48,class,28,t
+503,load data.dat,603254470fc3a5c5ab77f4620e822d48,c#,28,f
+504,cleaning up unused memory,603254470fc3a5c5ab77f4620e822d48,garbage collection,28,t
+505,order of a deck of cards,603254470fc3a5c5ab77f4620e822d48,set,28,f
+506,int foo;,603254470fc3a5c5ab77f4620e822d48,type declaration,28,t
+507,insert/delete from a heap,603254470fc3a5c5ab77f4620e822d48,O(n),28,f
+508,find(x>0),603254470fc3a5c5ab77f4620e822d48,javascript,28,f
+509,class A: public B{...};,603254470fc3a5c5ab77f4620e822d48,java,28,f
+510,"[1,2;3,4;5,6;]",603254470fc3a5c5ab77f4620e822d48,matlab,28,t
+511,varargin,603254470fc3a5c5ab77f4620e822d48,git,28,f
+562,people you know,b7832d33d5fa1843c38ef2e5918630d1,set,32,t
+563,insert/delete from a heap,b7832d33d5fa1843c38ef2e5918630d1,O(n^2),32,f
+564,"public void foo(){...}
+public void foo(int bar){...}",b7832d33d5fa1843c38ef2e5918630d1,polymorphism,32,f
+565,Dijkstra's algorithm,b7832d33d5fa1843c38ef2e5918630d1,O(n*log(n)),32,f
+566,throws,b7832d33d5fa1843c38ef2e5918630d1,python,32,f
+567,dictionary,b7832d33d5fa1843c38ef2e5918630d1,map,32,t
+568,package org.foo,b7832d33d5fa1843c38ef2e5918630d1,python,32,f
+569,back button history in browser,b7832d33d5fa1843c38ef2e5918630d1,map,32,f
+570,a instanceof MyClass,b7832d33d5fa1843c38ef2e5918630d1,c#,32,f
+571,compile time type verification,b7832d33d5fa1843c38ef2e5918630d1,generic types,32,f
+572,for(int foo : bar){...},b7832d33d5fa1843c38ef2e5918630d1,iteration,32,t
+573,binary search (average case),b7832d33d5fa1843c38ef2e5918630d1,O(n^2),32,f
+574,steps in a recipe,b7832d33d5fa1843c38ef2e5918630d1,list,32,t
+575,cleaning up unused memory,b7832d33d5fa1843c38ef2e5918630d1,garbage collection,32,t
+576,definition of similar objects,b7832d33d5fa1843c38ef2e5918630d1,encapsulation,32,f
+692,back button history in browser,e5cbb18b60e6036190a6287b244a73f1,list,40,t
+693,"public void foo(){
+	super();
+...
+}",e5cbb18b60e6036190a6287b244a73f1,encapsulation,40,f
+694,fetch,e5cbb18b60e6036190a6287b244a73f1,git,40,t
+695,Foo extends Bar,e5cbb18b60e6036190a6287b244a73f1,inheritance,40,t
+696,CoffeeScript,e5cbb18b60e6036190a6287b244a73f1,javascript,40,t
+697,phone book,e5cbb18b60e6036190a6287b244a73f1,map,40,t
+698,family geneology,e5cbb18b60e6036190a6287b244a73f1,tree,40,t
+699,bookmarks,e5cbb18b60e6036190a6287b244a73f1,map,40,t
+700,return *this;,e5cbb18b60e6036190a6287b244a73f1,c/c++,40,t
+701,throws,e5cbb18b60e6036190a6287b244a73f1,c#,40,f
+702,C& C::(operator=(const C&);,e5cbb18b60e6036190a6287b244a73f1,c/c++,40,t
+703,dictionary,e5cbb18b60e6036190a6287b244a73f1,map,40,t
+704,malloc,e5cbb18b60e6036190a6287b244a73f1,c/c++,40,t
+705,.NET,e5cbb18b60e6036190a6287b244a73f1,c#,40,t
+706,bubble sort,e5cbb18b60e6036190a6287b244a73f1,O(log(n)),40,f
+707,commit,e5cbb18b60e6036190a6287b244a73f1,git,40,t
+708,for(int foo : bar){...},e5cbb18b60e6036190a6287b244a73f1,iteration,40,t
+709,int foo;,e5cbb18b60e6036190a6287b244a73f1,type declaration,40,t
+710,fib(n)=fib(n-1)+n,e5cbb18b60e6036190a6287b244a73f1,recursion,40,t
+711,/match/.test('matches!'),e5cbb18b60e6036190a6287b244a73f1,java,40,f
+712,JSON,e5cbb18b60e6036190a6287b244a73f1,javascript,40,t
+713,instance of a class,e5cbb18b60e6036190a6287b244a73f1,object,40,t
+714,rebase,e5cbb18b60e6036190a6287b244a73f1,git,40,t
+715,type erasure,e5cbb18b60e6036190a6287b244a73f1,java,40,t
+716,binary search (average case),e5cbb18b60e6036190a6287b244a73f1,O(n),40,f
+717,CLR,e5cbb18b60e6036190a6287b244a73f1,python,40,f
+718,steps in a recipe,e5cbb18b60e6036190a6287b244a73f1,list,40,t
+719,Foo foo = new Foo();,e5cbb18b60e6036190a6287b244a73f1,class,40,f
+776,prototypal inheritance,247b761190ca7af8a9779f58ceca9294,javascript,43,t
+777,bookmarks,247b761190ca7af8a9779f58ceca9294,map,43,t
+778,size(A),247b761190ca7af8a9779f58ceca9294,matlab,43,t
+779,oracle,247b761190ca7af8a9779f58ceca9294,javascript,43,f
+780,HEAD~2,247b761190ca7af8a9779f58ceca9294,git,43,t
+781,checkout,247b761190ca7af8a9779f58ceca9294,git,43,t
+782,cartesian product,247b761190ca7af8a9779f58ceca9294,O(n*log(n)),43,f
+783,Animal puppy = new Dog();,247b761190ca7af8a9779f58ceca9294,polymorphism,43,t
+784,cleaning up unused memory,247b761190ca7af8a9779f58ceca9294,garbage collection,43,t
+785,"function [result1, result2] = functionName(var1, var2, var3)",247b761190ca7af8a9779f58ceca9294,matlab,43,t
+786,fib(n)=fib(n-1)+n,247b761190ca7af8a9779f58ceca9294,recursion,43,t
+787,Foo extends Bar,247b761190ca7af8a9779f58ceca9294,abstract class,43,f
+788,insert/delete from a heap,247b761190ca7af8a9779f58ceca9294,O(log(n)),43,t
+789,steps in a recipe,247b761190ca7af8a9779f58ceca9294,set,43,f
+790,for(int foo : bar){...},247b761190ca7af8a9779f58ceca9294,iteration,43,t
+791,blame,247b761190ca7af8a9779f58ceca9294,c#,43,f
+792,protected void finalize() throws Throwable{...},247b761190ca7af8a9779f58ceca9294,java,43,t
+862,quicksort (average case),8db24748449e5e7480e031baa348dd68,O(n),49,f
+863,int foo;,8db24748449e5e7480e031baa348dd68,type declaration,49,t
+864,oracle,8db24748449e5e7480e031baa348dd68,java,49,t
+865,order of a deck of cards,8db24748449e5e7480e031baa348dd68,list,49,t
+866,Foo foo = new Foo();,8db24748449e5e7480e031baa348dd68,constructor,49,t
+867,phone book,8db24748449e5e7480e031baa348dd68,set,49,f
+868,cleaning up unused memory,8db24748449e5e7480e031baa348dd68,garbage collection,49,t
+869,index,8db24748449e5e7480e031baa348dd68,list,49,f
+870,bubble sort,8db24748449e5e7480e031baa348dd68,O(log(n)),49,f
+871,type erasure,8db24748449e5e7480e031baa348dd68,c/c++,49,f
+872,a.equals(b),8db24748449e5e7480e031baa348dd68,java,49,t
+873,fib(n)=fib(n-1)+n,8db24748449e5e7480e031baa348dd68,recursion,49,t
+874,throws,8db24748449e5e7480e031baa348dd68,java,49,t
+875,class with some missing implementation,8db24748449e5e7480e031baa348dd68,abstract class,49,t
+876,instance of a class,8db24748449e5e7480e031baa348dd68,interface,49,f
+877,Animal puppy = new Dog();,8db24748449e5e7480e031baa348dd68,inheritance,49,f
+966,merge sort,ac102da2687ef1c91c954e2e7471e629,O(n*log(n)),54,t
+967,throws,ac102da2687ef1c91c954e2e7471e629,java,54,t
+968,Foo::~Foo() {};,ac102da2687ef1c91c954e2e7471e629,javascript,54,f
+969,malloc,ac102da2687ef1c91c954e2e7471e629,c/c++,54,t
+970,binary search (average case),ac102da2687ef1c91c954e2e7471e629,O(log(n)),54,t
+971,branch,ac102da2687ef1c91c954e2e7471e629,git,54,t
+972,bubble sort,ac102da2687ef1c91c954e2e7471e629,O(n^2),54,f
+973,friend void myFunction();,ac102da2687ef1c91c954e2e7471e629,java,54,f
+974,linear search (average case),ac102da2687ef1c91c954e2e7471e629,O(n),54,t
+975,class Foo extends Bar,ac102da2687ef1c91c954e2e7471e629,java,54,t
+976,fib(n)=fib(n-1)+n,ac102da2687ef1c91c954e2e7471e629,recursion,54,t
+977,JVM,ac102da2687ef1c91c954e2e7471e629,java,54,t
+978,insert/delete from a heap,ac102da2687ef1c91c954e2e7471e629,O(n^2),54,f
+979,class A: public B{...};,ac102da2687ef1c91c954e2e7471e629,c#,54,f
+512,bookmarks,603254470fc3a5c5ab77f4620e822d48,map,29,t
+513,quicksort (average case),603254470fc3a5c5ab77f4620e822d48,O(n*log(n)),29,t
+514,phone book,603254470fc3a5c5ab77f4620e822d48,map,29,t
+515,void *data;,603254470fc3a5c5ab77f4620e822d48,git,29,f
+516,copying an array,603254470fc3a5c5ab77f4620e822d48,O(n),29,t
+517,runtime type verification,603254470fc3a5c5ab77f4620e822d48,type declaration,29,f
+518,linear search (average case),603254470fc3a5c5ab77f4620e822d48,O(n^2),29,f
+519,a instanceof MyClass,603254470fc3a5c5ab77f4620e822d48,java,29,t
+520,"[1,2;3,4;]^2",603254470fc3a5c5ab77f4620e822d48,matlab,29,t
+521,Thread synchronization primitive,603254470fc3a5c5ab77f4620e822d48,type declaration,29,f
+522,definition of similar objects,603254470fc3a5c5ab77f4620e822d48,class,29,t
+523,load data.dat,603254470fc3a5c5ab77f4620e822d48,c#,29,f
+524,cleaning up unused memory,603254470fc3a5c5ab77f4620e822d48,garbage collection,29,t
+525,order of a deck of cards,603254470fc3a5c5ab77f4620e822d48,set,29,f
+526,int foo;,603254470fc3a5c5ab77f4620e822d48,type declaration,29,t
+527,insert/delete from a heap,603254470fc3a5c5ab77f4620e822d48,O(n),29,f
+528,find(x>0),603254470fc3a5c5ab77f4620e822d48,javascript,29,f
+529,class A: public B{...};,603254470fc3a5c5ab77f4620e822d48,java,29,f
+530,"[1,2;3,4;5,6;]",603254470fc3a5c5ab77f4620e822d48,matlab,29,t
+531,varargin,603254470fc3a5c5ab77f4620e822d48,git,29,f
+547,people you know,b7832d33d5fa1843c38ef2e5918630d1,set,31,t
+548,insert/delete from a heap,b7832d33d5fa1843c38ef2e5918630d1,O(n^2),31,f
+549,"public void foo(){...}
+public void foo(int bar){...}",b7832d33d5fa1843c38ef2e5918630d1,polymorphism,31,f
+550,Dijkstra's algorithm,b7832d33d5fa1843c38ef2e5918630d1,O(n*log(n)),31,f
+551,throws,b7832d33d5fa1843c38ef2e5918630d1,python,31,f
+552,dictionary,b7832d33d5fa1843c38ef2e5918630d1,map,31,t
+553,package org.foo,b7832d33d5fa1843c38ef2e5918630d1,python,31,f
+554,back button history in browser,b7832d33d5fa1843c38ef2e5918630d1,map,31,f
+555,a instanceof MyClass,b7832d33d5fa1843c38ef2e5918630d1,c#,31,f
+556,compile time type verification,b7832d33d5fa1843c38ef2e5918630d1,generic types,31,f
+557,for(int foo : bar){...},b7832d33d5fa1843c38ef2e5918630d1,iteration,31,t
+558,binary search (average case),b7832d33d5fa1843c38ef2e5918630d1,O(n^2),31,f
+559,steps in a recipe,b7832d33d5fa1843c38ef2e5918630d1,list,31,t
+560,cleaning up unused memory,b7832d33d5fa1843c38ef2e5918630d1,garbage collection,31,t
+561,definition of similar objects,b7832d33d5fa1843c38ef2e5918630d1,encapsulation,31,f
+577,people you know,b7832d33d5fa1843c38ef2e5918630d1,set,33,t
+578,insert/delete from a heap,b7832d33d5fa1843c38ef2e5918630d1,O(n^2),33,f
+579,"public void foo(){...}
+public void foo(int bar){...}",b7832d33d5fa1843c38ef2e5918630d1,polymorphism,33,f
+580,Dijkstra's algorithm,b7832d33d5fa1843c38ef2e5918630d1,O(n*log(n)),33,f
+581,throws,b7832d33d5fa1843c38ef2e5918630d1,python,33,f
+582,dictionary,b7832d33d5fa1843c38ef2e5918630d1,map,33,t
+583,package org.foo,b7832d33d5fa1843c38ef2e5918630d1,python,33,f
+584,back button history in browser,b7832d33d5fa1843c38ef2e5918630d1,map,33,f
+585,a instanceof MyClass,b7832d33d5fa1843c38ef2e5918630d1,c#,33,f
+586,compile time type verification,b7832d33d5fa1843c38ef2e5918630d1,generic types,33,f
+587,for(int foo : bar){...},b7832d33d5fa1843c38ef2e5918630d1,iteration,33,t
+588,binary search (average case),b7832d33d5fa1843c38ef2e5918630d1,O(n^2),33,f
+589,steps in a recipe,b7832d33d5fa1843c38ef2e5918630d1,list,33,t
+590,cleaning up unused memory,b7832d33d5fa1843c38ef2e5918630d1,garbage collection,33,t
+591,definition of similar objects,b7832d33d5fa1843c38ef2e5918630d1,encapsulation,33,f
+592,family geneology,a230c7f1e8498cb8221d91518fd98354,tree,34,t
+593,copying an array,a230c7f1e8498cb8221d91518fd98354,O(n),34,t
+594,int foo;,a230c7f1e8498cb8221d91518fd98354,type declaration,34,t
+595,Foo extends Bar,a230c7f1e8498cb8221d91518fd98354,inheritance,34,t
+596,class with some missing implementation,a230c7f1e8498cb8221d91518fd98354,abstract class,34,t
+597,insert/delete from a heap,a230c7f1e8498cb8221d91518fd98354,O(log(n)),34,t
+598,"public void foo(){
+	super();
+...
+}",a230c7f1e8498cb8221d91518fd98354,polymorphism,34,f
+599,Animal puppy = new Dog();,a230c7f1e8498cb8221d91518fd98354,constructor,34,f
+600,steps in a recipe,a230c7f1e8498cb8221d91518fd98354,list,34,t
+601,Dijkstra's algorithm,a230c7f1e8498cb8221d91518fd98354,O(log(n)),34,f
+602,dictionary,a230c7f1e8498cb8221d91518fd98354,set,34,f
+603,cleaning up unused memory,a230c7f1e8498cb8221d91518fd98354,garbage collection,34,t
+604,public T head(List<T> lst){ return lst.get(0);},a230c7f1e8498cb8221d91518fd98354,iteration,34,f
+605,runtime type verification,a230c7f1e8498cb8221d91518fd98354,dynamic typing,34,t
+606,for(int foo : bar){...},a230c7f1e8498cb8221d91518fd98354,generic types,34,f
+607,Foo foo = new Foo();,a230c7f1e8498cb8221d91518fd98354,constructor,34,t
+608,cartesian product,a230c7f1e8498cb8221d91518fd98354,O(n),34,f
+609,back button history in browser,a230c7f1e8498cb8221d91518fd98354,set,34,f
+610,family geneology,a230c7f1e8498cb8221d91518fd98354,tree,35,t
+611,copying an array,a230c7f1e8498cb8221d91518fd98354,O(n),35,t
+612,int foo;,a230c7f1e8498cb8221d91518fd98354,type declaration,35,t
+613,Foo extends Bar,a230c7f1e8498cb8221d91518fd98354,inheritance,35,t
+614,class with some missing implementation,a230c7f1e8498cb8221d91518fd98354,abstract class,35,t
+615,insert/delete from a heap,a230c7f1e8498cb8221d91518fd98354,O(log(n)),35,t
+616,"public void foo(){
+	super();
+...
+}",a230c7f1e8498cb8221d91518fd98354,polymorphism,35,f
+617,Animal puppy = new Dog();,a230c7f1e8498cb8221d91518fd98354,constructor,35,f
+618,steps in a recipe,a230c7f1e8498cb8221d91518fd98354,list,35,t
+619,Dijkstra's algorithm,a230c7f1e8498cb8221d91518fd98354,O(log(n)),35,f
+620,dictionary,a230c7f1e8498cb8221d91518fd98354,set,35,f
+621,cleaning up unused memory,a230c7f1e8498cb8221d91518fd98354,garbage collection,35,t
+622,public T head(List<T> lst){ return lst.get(0);},a230c7f1e8498cb8221d91518fd98354,iteration,35,f
+623,runtime type verification,a230c7f1e8498cb8221d91518fd98354,dynamic typing,35,t
+624,for(int foo : bar){...},a230c7f1e8498cb8221d91518fd98354,generic types,35,f
+625,Foo foo = new Foo();,a230c7f1e8498cb8221d91518fd98354,constructor,35,t
+626,cartesian product,a230c7f1e8498cb8221d91518fd98354,O(n),35,f
+627,back button history in browser,a230c7f1e8498cb8221d91518fd98354,set,35,f
+644,public T head(List<T> lst){ return lst.get(0);},5af04ff63c7f38d0b6b1e35f07307c31,dynamic typing,37,f
+645,"public getFoo(){
+  return this.foo;
+}",5af04ff63c7f38d0b6b1e35f07307c31,encapsulation,37,t
+646,for(int foo : bar){...},5af04ff63c7f38d0b6b1e35f07307c31,iteration,37,t
+532,people you know,b7832d33d5fa1843c38ef2e5918630d1,set,30,t
+533,insert/delete from a heap,b7832d33d5fa1843c38ef2e5918630d1,O(n^2),30,f
+534,"public void foo(){...}
+public void foo(int bar){...}",b7832d33d5fa1843c38ef2e5918630d1,polymorphism,30,f
+535,Dijkstra's algorithm,b7832d33d5fa1843c38ef2e5918630d1,O(n*log(n)),30,f
+536,throws,b7832d33d5fa1843c38ef2e5918630d1,python,30,f
+537,dictionary,b7832d33d5fa1843c38ef2e5918630d1,map,30,t
+538,package org.foo,b7832d33d5fa1843c38ef2e5918630d1,python,30,f
+539,back button history in browser,b7832d33d5fa1843c38ef2e5918630d1,map,30,f
+540,a instanceof MyClass,b7832d33d5fa1843c38ef2e5918630d1,c#,30,f
+541,compile time type verification,b7832d33d5fa1843c38ef2e5918630d1,generic types,30,f
+542,for(int foo : bar){...},b7832d33d5fa1843c38ef2e5918630d1,iteration,30,t
+543,binary search (average case),b7832d33d5fa1843c38ef2e5918630d1,O(n^2),30,f
+544,steps in a recipe,b7832d33d5fa1843c38ef2e5918630d1,list,30,t
+545,cleaning up unused memory,b7832d33d5fa1843c38ef2e5918630d1,garbage collection,30,t
+546,definition of similar objects,b7832d33d5fa1843c38ef2e5918630d1,encapsulation,30,f
+628,definition of similar objects,5af04ff63c7f38d0b6b1e35f07307c31,dynamic typing,36,f
+629,for(int foo : bar){...},5af04ff63c7f38d0b6b1e35f07307c31,encapsulation,36,f
+630,copying an array,5af04ff63c7f38d0b6b1e35f07307c31,iteration,36,f
+631,Foo foo = new Foo();,5af04ff63c7f38d0b6b1e35f07307c31,abstract class,36,f
+632,fib(n)=fib(n-1)+n,5af04ff63c7f38d0b6b1e35f07307c31,java,36,f
+633,(1:3:21).*2,5af04ff63c7f38d0b6b1e35f07307c31,overriding,36,f
+634,merge sort,5af04ff63c7f38d0b6b1e35f07307c31,static typing,36,f
+635,cartesian product,5af04ff63c7f38d0b6b1e35f07307c31,type declaration,36,f
+636,"[1,2;3,4;5,6;]",5af04ff63c7f38d0b6b1e35f07307c31,set,36,f
+637,class Foo extends Bar,5af04ff63c7f38d0b6b1e35f07307c31,java,36,t
+638,phone book,5af04ff63c7f38d0b6b1e35f07307c31,matlab,36,f
+639,binary search (average case),5af04ff63c7f38d0b6b1e35f07307c31,matlab,36,f
+640,if... true... elseif... false... else... end,5af04ff63c7f38d0b6b1e35f07307c31,overloading,36,f
+641,Foo implements Bar,5af04ff63c7f38d0b6b1e35f07307c31,O(n^2),36,f
+642,public T head(List<T> lst){ return lst.get(0);},5af04ff63c7f38d0b6b1e35f07307c31,inheritance,36,f
+643,cleaning up unused memory,5af04ff63c7f38d0b6b1e35f07307c31,java,36,f
+676,public T head(List<T> lst){ return lst.get(0);},5af04ff63c7f38d0b6b1e35f07307c31,dynamic typing,39,f
+677,"public getFoo(){
+  return this.foo;
+}",5af04ff63c7f38d0b6b1e35f07307c31,encapsulation,39,t
+678,for(int foo : bar){...},5af04ff63c7f38d0b6b1e35f07307c31,iteration,39,t
+679,class with some missing implementation,5af04ff63c7f38d0b6b1e35f07307c31,abstract class,39,t
+680,oracle,5af04ff63c7f38d0b6b1e35f07307c31,java,39,t
+681,"public void foo(){
+	super();
+...
+}",5af04ff63c7f38d0b6b1e35f07307c31,overriding,39,t
+682,compile time type verification,5af04ff63c7f38d0b6b1e35f07307c31,static typing,39,t
+683,int foo;,5af04ff63c7f38d0b6b1e35f07307c31,type declaration,39,t
+684,index,5af04ff63c7f38d0b6b1e35f07307c31,set,39,f
+685,a.equals(b),5af04ff63c7f38d0b6b1e35f07307c31,java,39,t
+686,find(x>0),5af04ff63c7f38d0b6b1e35f07307c31,matlab,39,t
+687,"[1,2;3,4;]^2",5af04ff63c7f38d0b6b1e35f07307c31,matlab,39,t
+688,"public void foo(){...}
+public void foo(int bar){...}",5af04ff63c7f38d0b6b1e35f07307c31,overloading,39,t
+689,bubble sort,5af04ff63c7f38d0b6b1e35f07307c31,O(n^2),39,f
+690,Foo extends Bar,5af04ff63c7f38d0b6b1e35f07307c31,inheritance,39,t
+691,%Comments,5af04ff63c7f38d0b6b1e35f07307c31,java,39,f
+720,back button history in browser,e5cbb18b60e6036190a6287b244a73f1,list,41,t
+721,"public void foo(){
+	super();
+...
+}",e5cbb18b60e6036190a6287b244a73f1,encapsulation,41,f
+722,fetch,e5cbb18b60e6036190a6287b244a73f1,git,41,t
+723,Foo extends Bar,e5cbb18b60e6036190a6287b244a73f1,inheritance,41,t
+724,CoffeeScript,e5cbb18b60e6036190a6287b244a73f1,javascript,41,t
+725,phone book,e5cbb18b60e6036190a6287b244a73f1,map,41,t
+726,family geneology,e5cbb18b60e6036190a6287b244a73f1,tree,41,t
+727,bookmarks,e5cbb18b60e6036190a6287b244a73f1,map,41,t
+728,return *this;,e5cbb18b60e6036190a6287b244a73f1,c/c++,41,t
+729,throws,e5cbb18b60e6036190a6287b244a73f1,c#,41,f
+730,C& C::(operator=(const C&);,e5cbb18b60e6036190a6287b244a73f1,c/c++,41,t
+731,dictionary,e5cbb18b60e6036190a6287b244a73f1,map,41,t
+732,malloc,e5cbb18b60e6036190a6287b244a73f1,c/c++,41,t
+733,.NET,e5cbb18b60e6036190a6287b244a73f1,c#,41,t
+734,bubble sort,e5cbb18b60e6036190a6287b244a73f1,O(log(n)),41,f
+735,commit,e5cbb18b60e6036190a6287b244a73f1,git,41,t
+736,for(int foo : bar){...},e5cbb18b60e6036190a6287b244a73f1,iteration,41,t
+737,int foo;,e5cbb18b60e6036190a6287b244a73f1,type declaration,41,t
+738,fib(n)=fib(n-1)+n,e5cbb18b60e6036190a6287b244a73f1,recursion,41,t
+739,/match/.test('matches!'),e5cbb18b60e6036190a6287b244a73f1,java,41,f
+740,JSON,e5cbb18b60e6036190a6287b244a73f1,javascript,41,t
+741,instance of a class,e5cbb18b60e6036190a6287b244a73f1,object,41,t
+742,rebase,e5cbb18b60e6036190a6287b244a73f1,git,41,t
+743,type erasure,e5cbb18b60e6036190a6287b244a73f1,java,41,t
+744,binary search (average case),e5cbb18b60e6036190a6287b244a73f1,O(n),41,f
+745,CLR,e5cbb18b60e6036190a6287b244a73f1,python,41,f
+746,steps in a recipe,e5cbb18b60e6036190a6287b244a73f1,list,41,t
+747,Foo foo = new Foo();,e5cbb18b60e6036190a6287b244a73f1,class,41,f
+748,back button history in browser,e5cbb18b60e6036190a6287b244a73f1,list,42,t
+749,"public void foo(){
+	super();
+...
+}",e5cbb18b60e6036190a6287b244a73f1,encapsulation,42,f
+750,fetch,e5cbb18b60e6036190a6287b244a73f1,git,42,t
+751,Foo extends Bar,e5cbb18b60e6036190a6287b244a73f1,inheritance,42,t
+752,CoffeeScript,e5cbb18b60e6036190a6287b244a73f1,javascript,42,t
+753,phone book,e5cbb18b60e6036190a6287b244a73f1,map,42,t
+754,family geneology,e5cbb18b60e6036190a6287b244a73f1,tree,42,t
+755,bookmarks,e5cbb18b60e6036190a6287b244a73f1,map,42,t
+756,return *this;,e5cbb18b60e6036190a6287b244a73f1,c/c++,42,t
+757,throws,e5cbb18b60e6036190a6287b244a73f1,c#,42,f
+758,C& C::(operator=(const C&);,e5cbb18b60e6036190a6287b244a73f1,c/c++,42,t
+759,dictionary,e5cbb18b60e6036190a6287b244a73f1,map,42,t
+760,malloc,e5cbb18b60e6036190a6287b244a73f1,c/c++,42,t
+761,.NET,e5cbb18b60e6036190a6287b244a73f1,c#,42,t
+762,bubble sort,e5cbb18b60e6036190a6287b244a73f1,O(log(n)),42,f
+763,commit,e5cbb18b60e6036190a6287b244a73f1,git,42,t
+764,for(int foo : bar){...},e5cbb18b60e6036190a6287b244a73f1,iteration,42,t
+765,int foo;,e5cbb18b60e6036190a6287b244a73f1,type declaration,42,t
+766,fib(n)=fib(n-1)+n,e5cbb18b60e6036190a6287b244a73f1,recursion,42,t
+767,/match/.test('matches!'),e5cbb18b60e6036190a6287b244a73f1,java,42,f
+768,JSON,e5cbb18b60e6036190a6287b244a73f1,javascript,42,t
+769,instance of a class,e5cbb18b60e6036190a6287b244a73f1,object,42,t
+647,class with some missing implementation,5af04ff63c7f38d0b6b1e35f07307c31,abstract class,37,t
+648,oracle,5af04ff63c7f38d0b6b1e35f07307c31,java,37,t
+649,"public void foo(){
+	super();
+...
+}",5af04ff63c7f38d0b6b1e35f07307c31,overriding,37,t
+650,compile time type verification,5af04ff63c7f38d0b6b1e35f07307c31,static typing,37,t
+651,int foo;,5af04ff63c7f38d0b6b1e35f07307c31,type declaration,37,t
+652,index,5af04ff63c7f38d0b6b1e35f07307c31,set,37,f
+653,a.equals(b),5af04ff63c7f38d0b6b1e35f07307c31,java,37,t
+654,find(x>0),5af04ff63c7f38d0b6b1e35f07307c31,matlab,37,t
+655,"[1,2;3,4;]^2",5af04ff63c7f38d0b6b1e35f07307c31,matlab,37,t
+656,"public void foo(){...}
+public void foo(int bar){...}",5af04ff63c7f38d0b6b1e35f07307c31,overloading,37,t
+657,bubble sort,5af04ff63c7f38d0b6b1e35f07307c31,O(n^2),37,f
+658,Foo extends Bar,5af04ff63c7f38d0b6b1e35f07307c31,inheritance,37,t
+659,%Comments,5af04ff63c7f38d0b6b1e35f07307c31,java,37,f
+660,definition of similar objects,5af04ff63c7f38d0b6b1e35f07307c31,dynamic typing,38,f
+661,for(int foo : bar){...},5af04ff63c7f38d0b6b1e35f07307c31,encapsulation,38,f
+662,copying an array,5af04ff63c7f38d0b6b1e35f07307c31,iteration,38,f
+663,Foo foo = new Foo();,5af04ff63c7f38d0b6b1e35f07307c31,abstract class,38,f
+664,fib(n)=fib(n-1)+n,5af04ff63c7f38d0b6b1e35f07307c31,java,38,f
+665,(1:3:21).*2,5af04ff63c7f38d0b6b1e35f07307c31,overriding,38,f
+666,merge sort,5af04ff63c7f38d0b6b1e35f07307c31,static typing,38,f
+667,cartesian product,5af04ff63c7f38d0b6b1e35f07307c31,type declaration,38,f
+668,"[1,2;3,4;5,6;]",5af04ff63c7f38d0b6b1e35f07307c31,set,38,f
+669,class Foo extends Bar,5af04ff63c7f38d0b6b1e35f07307c31,java,38,t
+670,phone book,5af04ff63c7f38d0b6b1e35f07307c31,matlab,38,f
+671,binary search (average case),5af04ff63c7f38d0b6b1e35f07307c31,matlab,38,f
+672,if... true... elseif... false... else... end,5af04ff63c7f38d0b6b1e35f07307c31,overloading,38,f
+673,Foo implements Bar,5af04ff63c7f38d0b6b1e35f07307c31,O(n^2),38,f
+674,public T head(List<T> lst){ return lst.get(0);},5af04ff63c7f38d0b6b1e35f07307c31,inheritance,38,f
+675,cleaning up unused memory,5af04ff63c7f38d0b6b1e35f07307c31,java,38,f
+836,people you know,8c9928a184a34229cbf1c4399506afef,list,47,f
+837,"[(x,x+1) for x in range(1,6,2)]",8c9928a184a34229cbf1c4399506afef,python,47,t
+838,"public void foo(){
+	super();
+...
+}",8c9928a184a34229cbf1c4399506afef,polymorphism,47,f
+839,Object.create(foo);,8c9928a184a34229cbf1c4399506afef,javascript,47,t
+840,Foo foo = new Foo();,8c9928a184a34229cbf1c4399506afef,class,47,f
+841,"public void foo(){...}
+public void foo(int bar){...}",8c9928a184a34229cbf1c4399506afef,polymorphism,47,f
+842,[x for x in range(12)],8c9928a184a34229cbf1c4399506afef,python,47,t
+843,throws,8c9928a184a34229cbf1c4399506afef,java,47,t
+844,order of a deck of cards,8c9928a184a34229cbf1c4399506afef,list,47,t
+845,document.getElementById(foo),8c9928a184a34229cbf1c4399506afef,javascript,47,t
+846,back button history in browser,8c9928a184a34229cbf1c4399506afef,list,47,t
+847,bookmarks,8c9928a184a34229cbf1c4399506afef,list,47,f
+848,a.equals(b),8c9928a184a34229cbf1c4399506afef,java,47,t
+894,type erasure,547d36d72f59dad36554616d320e2ade,java,51,t
+895,"function [result1, result2] = functionName(var1, var2, var3)",547d36d72f59dad36554616d320e2ade,python,51,f
+896,"public void foo(){
+	super();
+...
+}",547d36d72f59dad36554616d320e2ade,overriding,51,t
+897,fetch,547d36d72f59dad36554616d320e2ade,git,51,t
+898,bookmarks,547d36d72f59dad36554616d320e2ade,map,51,t
+899,order of a deck of cards,547d36d72f59dad36554616d320e2ade,set,51,f
+900,load data.dat,547d36d72f59dad36554616d320e2ade,java,51,f
+901,"public void foo(){...}
+public void foo(int bar){...}",547d36d72f59dad36554616d320e2ade,overloading,51,t
+902,rebase,547d36d72f59dad36554616d320e2ade,matlab,51,f
+903,fib(n)=fib(n-1)+n,547d36d72f59dad36554616d320e2ade,recursion,51,t
+904,friend void myFunction();,547d36d72f59dad36554616d320e2ade,c/c++,51,t
+905,phone book,547d36d72f59dad36554616d320e2ade,list,51,f
+906,throws,547d36d72f59dad36554616d320e2ade,java,51,t
+907,merge,547d36d72f59dad36554616d320e2ade,git,51,t
+908,C& C::(operator=(const C&);,547d36d72f59dad36554616d320e2ade,c/c++,51,t
+909,find(x>0),547d36d72f59dad36554616d320e2ade,java,51,f
+910,"[1,2;3,4;]*[5,6;7,8;]",547d36d72f59dad36554616d320e2ade,matlab,51,t
+911,cartesian product,547d36d72f59dad36554616d320e2ade,O(n^2),51,t
+912,int foo;,547d36d72f59dad36554616d320e2ade,static typing,51,f
+913,Thread synchronization primitive,547d36d72f59dad36554616d320e2ade,mutex,51,t
+914,branch,547d36d72f59dad36554616d320e2ade,git,51,t
+915,return *this;,547d36d72f59dad36554616d320e2ade,c/c++,51,t
+916,(1:3:21).*2,547d36d72f59dad36554616d320e2ade,matlab,51,t
+917,quicksort (average case),547d36d72f59dad36554616d320e2ade,O(n*log(n)),51,t
+942,type erasure,547d36d72f59dad36554616d320e2ade,java,53,t
+943,"function [result1, result2] = functionName(var1, var2, var3)",547d36d72f59dad36554616d320e2ade,python,53,f
+944,"public void foo(){
+	super();
+...
+}",547d36d72f59dad36554616d320e2ade,overriding,53,t
+945,fetch,547d36d72f59dad36554616d320e2ade,git,53,t
+946,bookmarks,547d36d72f59dad36554616d320e2ade,map,53,t
+947,order of a deck of cards,547d36d72f59dad36554616d320e2ade,set,53,f
+948,load data.dat,547d36d72f59dad36554616d320e2ade,java,53,f
+949,"public void foo(){...}
+public void foo(int bar){...}",547d36d72f59dad36554616d320e2ade,overloading,53,t
+950,rebase,547d36d72f59dad36554616d320e2ade,matlab,53,f
+951,fib(n)=fib(n-1)+n,547d36d72f59dad36554616d320e2ade,recursion,53,t
+952,friend void myFunction();,547d36d72f59dad36554616d320e2ade,c/c++,53,t
+953,phone book,547d36d72f59dad36554616d320e2ade,list,53,f
+954,throws,547d36d72f59dad36554616d320e2ade,java,53,t
+955,merge,547d36d72f59dad36554616d320e2ade,git,53,t
+956,C& C::(operator=(const C&);,547d36d72f59dad36554616d320e2ade,c/c++,53,t
+957,find(x>0),547d36d72f59dad36554616d320e2ade,java,53,f
+958,"[1,2;3,4;]*[5,6;7,8;]",547d36d72f59dad36554616d320e2ade,matlab,53,t
+959,cartesian product,547d36d72f59dad36554616d320e2ade,O(n^2),53,t
+960,int foo;,547d36d72f59dad36554616d320e2ade,static typing,53,f
+961,Thread synchronization primitive,547d36d72f59dad36554616d320e2ade,mutex,53,t
+771,type erasure,e5cbb18b60e6036190a6287b244a73f1,java,42,t
+772,binary search (average case),e5cbb18b60e6036190a6287b244a73f1,O(n),42,f
+773,CLR,e5cbb18b60e6036190a6287b244a73f1,python,42,f
+774,steps in a recipe,e5cbb18b60e6036190a6287b244a73f1,list,42,t
+775,Foo foo = new Foo();,e5cbb18b60e6036190a6287b244a73f1,class,42,f
+793,prototypal inheritance,247b761190ca7af8a9779f58ceca9294,javascript,44,t
+794,bookmarks,247b761190ca7af8a9779f58ceca9294,map,44,t
+795,size(A),247b761190ca7af8a9779f58ceca9294,matlab,44,t
+796,oracle,247b761190ca7af8a9779f58ceca9294,javascript,44,f
+797,HEAD~2,247b761190ca7af8a9779f58ceca9294,git,44,t
+798,checkout,247b761190ca7af8a9779f58ceca9294,git,44,t
+799,cartesian product,247b761190ca7af8a9779f58ceca9294,O(n*log(n)),44,f
+800,Animal puppy = new Dog();,247b761190ca7af8a9779f58ceca9294,polymorphism,44,t
+801,cleaning up unused memory,247b761190ca7af8a9779f58ceca9294,garbage collection,44,t
+802,"function [result1, result2] = functionName(var1, var2, var3)",247b761190ca7af8a9779f58ceca9294,matlab,44,t
+803,fib(n)=fib(n-1)+n,247b761190ca7af8a9779f58ceca9294,recursion,44,t
+804,Foo extends Bar,247b761190ca7af8a9779f58ceca9294,abstract class,44,f
+805,insert/delete from a heap,247b761190ca7af8a9779f58ceca9294,O(log(n)),44,t
+806,steps in a recipe,247b761190ca7af8a9779f58ceca9294,set,44,f
+807,for(int foo : bar){...},247b761190ca7af8a9779f58ceca9294,iteration,44,t
+808,blame,247b761190ca7af8a9779f58ceca9294,c#,44,f
+809,protected void finalize() throws Throwable{...},247b761190ca7af8a9779f58ceca9294,java,44,t
+810,fib(n)=fib(n-1)+n,ac791590be970574956dacf6353f7076,recursion,45,t
+811,insert/delete from a heap,ac791590be970574956dacf6353f7076,O(n),45,f
+812,phone book,ac791590be970574956dacf6353f7076,list,45,f
+813,throws,ac791590be970574956dacf6353f7076,java,45,t
+814,binary search (average case),ac791590be970574956dacf6353f7076,O(n),45,f
+815,#Comments,ac791590be970574956dacf6353f7076,python,45,t
+816,Foo foo = new Foo();,ac791590be970574956dacf6353f7076,constructor,45,t
+817,Thread synchronization primitive,ac791590be970574956dacf6353f7076,type declaration,45,f
+818,Animal puppy = new Dog();,ac791590be970574956dacf6353f7076,class,45,f
+819,Foo extends Bar,ac791590be970574956dacf6353f7076,inheritance,45,t
+820,bubble sort,ac791590be970574956dacf6353f7076,O(n),45,t
+821,index,ac791590be970574956dacf6353f7076,list,45,f
+822,if....elif....else....,ac791590be970574956dacf6353f7076,java,45,f
+823,fib(n)=fib(n-1)+n,ac791590be970574956dacf6353f7076,recursion,46,t
+824,insert/delete from a heap,ac791590be970574956dacf6353f7076,O(n),46,f
+825,phone book,ac791590be970574956dacf6353f7076,list,46,f
+826,throws,ac791590be970574956dacf6353f7076,java,46,t
+827,binary search (average case),ac791590be970574956dacf6353f7076,O(n),46,f
+828,#Comments,ac791590be970574956dacf6353f7076,python,46,t
+829,Foo foo = new Foo();,ac791590be970574956dacf6353f7076,constructor,46,t
+830,Thread synchronization primitive,ac791590be970574956dacf6353f7076,type declaration,46,f
+831,Animal puppy = new Dog();,ac791590be970574956dacf6353f7076,class,46,f
+832,Foo extends Bar,ac791590be970574956dacf6353f7076,inheritance,46,t
+833,bubble sort,ac791590be970574956dacf6353f7076,O(n),46,t
+834,index,ac791590be970574956dacf6353f7076,list,46,f
+835,if....elif....else....,ac791590be970574956dacf6353f7076,java,46,f
+849,people you know,8c9928a184a34229cbf1c4399506afef,list,48,f
+850,"[(x,x+1) for x in range(1,6,2)]",8c9928a184a34229cbf1c4399506afef,python,48,t
+851,"public void foo(){
+	super();
+...
+}",8c9928a184a34229cbf1c4399506afef,polymorphism,48,f
+852,Object.create(foo);,8c9928a184a34229cbf1c4399506afef,javascript,48,t
+853,Foo foo = new Foo();,8c9928a184a34229cbf1c4399506afef,class,48,f
+854,"public void foo(){...}
+public void foo(int bar){...}",8c9928a184a34229cbf1c4399506afef,polymorphism,48,f
+855,[x for x in range(12)],8c9928a184a34229cbf1c4399506afef,python,48,t
+856,throws,8c9928a184a34229cbf1c4399506afef,java,48,t
+857,order of a deck of cards,8c9928a184a34229cbf1c4399506afef,list,48,t
+858,document.getElementById(foo),8c9928a184a34229cbf1c4399506afef,javascript,48,t
+859,back button history in browser,8c9928a184a34229cbf1c4399506afef,list,48,t
+860,bookmarks,8c9928a184a34229cbf1c4399506afef,list,48,f
+861,a.equals(b),8c9928a184a34229cbf1c4399506afef,java,48,t
+878,quicksort (average case),8db24748449e5e7480e031baa348dd68,O(n),50,f
+879,int foo;,8db24748449e5e7480e031baa348dd68,type declaration,50,t
+880,oracle,8db24748449e5e7480e031baa348dd68,java,50,t
+881,order of a deck of cards,8db24748449e5e7480e031baa348dd68,list,50,t
+882,Foo foo = new Foo();,8db24748449e5e7480e031baa348dd68,constructor,50,t
+883,phone book,8db24748449e5e7480e031baa348dd68,set,50,f
+884,cleaning up unused memory,8db24748449e5e7480e031baa348dd68,garbage collection,50,t
+885,index,8db24748449e5e7480e031baa348dd68,list,50,f
+886,bubble sort,8db24748449e5e7480e031baa348dd68,O(log(n)),50,f
+887,type erasure,8db24748449e5e7480e031baa348dd68,c/c++,50,f
+888,a.equals(b),8db24748449e5e7480e031baa348dd68,java,50,t
+889,fib(n)=fib(n-1)+n,8db24748449e5e7480e031baa348dd68,recursion,50,t
+890,throws,8db24748449e5e7480e031baa348dd68,java,50,t
+891,class with some missing implementation,8db24748449e5e7480e031baa348dd68,abstract class,50,t
+892,instance of a class,8db24748449e5e7480e031baa348dd68,interface,50,f
+893,Animal puppy = new Dog();,8db24748449e5e7480e031baa348dd68,inheritance,50,f
+918,type erasure,547d36d72f59dad36554616d320e2ade,java,52,t
+919,"function [result1, result2] = functionName(var1, var2, var3)",547d36d72f59dad36554616d320e2ade,python,52,f
+920,"public void foo(){
+	super();
+...
+}",547d36d72f59dad36554616d320e2ade,overriding,52,t
+921,fetch,547d36d72f59dad36554616d320e2ade,git,52,t
+922,bookmarks,547d36d72f59dad36554616d320e2ade,map,52,t
+923,order of a deck of cards,547d36d72f59dad36554616d320e2ade,set,52,f
+924,load data.dat,547d36d72f59dad36554616d320e2ade,java,52,f
+925,"public void foo(){...}
+public void foo(int bar){...}",547d36d72f59dad36554616d320e2ade,overloading,52,t
+926,rebase,547d36d72f59dad36554616d320e2ade,matlab,52,f
+927,fib(n)=fib(n-1)+n,547d36d72f59dad36554616d320e2ade,recursion,52,t
+928,friend void myFunction();,547d36d72f59dad36554616d320e2ade,c/c++,52,t
+929,phone book,547d36d72f59dad36554616d320e2ade,list,52,f
+930,throws,547d36d72f59dad36554616d320e2ade,java,52,t
+931,merge,547d36d72f59dad36554616d320e2ade,git,52,t
+932,C& C::(operator=(const C&);,547d36d72f59dad36554616d320e2ade,c/c++,52,t
+933,find(x>0),547d36d72f59dad36554616d320e2ade,java,52,f
+934,"[1,2;3,4;]*[5,6;7,8;]",547d36d72f59dad36554616d320e2ade,matlab,52,t
+935,cartesian product,547d36d72f59dad36554616d320e2ade,O(n^2),52,t
+936,int foo;,547d36d72f59dad36554616d320e2ade,static typing,52,f
+937,Thread synchronization primitive,547d36d72f59dad36554616d320e2ade,mutex,52,t
+938,branch,547d36d72f59dad36554616d320e2ade,git,52,t
+939,return *this;,547d36d72f59dad36554616d320e2ade,c/c++,52,t
+940,(1:3:21).*2,547d36d72f59dad36554616d320e2ade,matlab,52,t
+941,quicksort (average case),547d36d72f59dad36554616d320e2ade,O(n*log(n)),52,t
+1055,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,59,f
+1056,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,59,f
+1057,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,59,f
+1058,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,59,f
+1059,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,59,f
+1060,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),59,f
+1061,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,59,f
+1062,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,59,f
+1063,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,59,f
+1064,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,59,f
+1065,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,59,f
+1066,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),59,f
+1067,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),59,f
+1068,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,59,f
+1069,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,59,f
+1070,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,59,f
+1183,return *this;,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,67,t
+1184,Animal puppy = new Dog();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,67,f
+1185,Foo implements Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,class,67,f
+1186,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,67,t
+1187,dictionary,a9baba4f0dbf6ef0f2bcef4502848a9f,list,67,f
+1188,linear search (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),67,t
+1189,cleaning up unused memory,a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,67,t
+1190,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,list,67,t
+1191,Thread synchronization primitive,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,67,t
+1192,CLR,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,67,f
+1193,int foo;,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,67,t
+1194,merge sort,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),67,t
+1195,quicksort (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),67,t
+1196,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,python,67,f
+1197,definition of similar objects,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,67,f
+1198,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,67,f
+1199,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,68,f
+1200,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,68,f
+1201,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,68,f
+1202,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,68,f
+1203,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,68,f
+1204,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),68,f
+1205,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,68,f
+1206,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,68,f
+1207,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,68,f
+1208,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,68,f
+1209,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,68,f
+1210,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),68,f
+1211,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),68,f
+1212,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,68,f
+1213,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,68,f
+1214,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,68,f
+1215,bookmarks,e9617c98e85ef7ecbf271cf1942d75f0,map,69,t
+1216,cartesian product,e9617c98e85ef7ecbf271cf1942d75f0,map,69,f
+1217,class Foo extends Bar,e9617c98e85ef7ecbf271cf1942d75f0,java,69,t
+1218,merge sort,e9617c98e85ef7ecbf271cf1942d75f0,O(n*log(n)),69,t
+1219,if....elif....else....,e9617c98e85ef7ecbf271cf1942d75f0,python,69,t
+1220,===,e9617c98e85ef7ecbf271cf1942d75f0,python,69,f
+1221,document.getElementById(foo),e9617c98e85ef7ecbf271cf1942d75f0,javascript,69,t
+1222,'Hello'[:2],e9617c98e85ef7ecbf271cf1942d75f0,javascript,69,f
+1223,protected void finalize() throws Throwable{...},e9617c98e85ef7ecbf271cf1942d75f0,java,69,t
+1224,int foo;,e9617c98e85ef7ecbf271cf1942d75f0,type declaration,69,t
+1225,phone book,e9617c98e85ef7ecbf271cf1942d75f0,map,69,t
+1226,dictionary,e9617c98e85ef7ecbf271cf1942d75f0,map,69,t
+1227,#Comments,e9617c98e85ef7ecbf271cf1942d75f0,python,69,t
+1228,runtime type verification,e9617c98e85ef7ecbf271cf1942d75f0,dynamic typing,69,t
+1229,index,e9617c98e85ef7ecbf271cf1942d75f0,list,69,f
+1230,bookmarks,e9617c98e85ef7ecbf271cf1942d75f0,map,70,t
+1231,cartesian product,e9617c98e85ef7ecbf271cf1942d75f0,map,70,f
+1232,class Foo extends Bar,e9617c98e85ef7ecbf271cf1942d75f0,java,70,t
+1233,merge sort,e9617c98e85ef7ecbf271cf1942d75f0,O(n*log(n)),70,t
+1234,if....elif....else....,e9617c98e85ef7ecbf271cf1942d75f0,python,70,t
+1235,===,e9617c98e85ef7ecbf271cf1942d75f0,python,70,f
+1236,document.getElementById(foo),e9617c98e85ef7ecbf271cf1942d75f0,javascript,70,t
+1237,'Hello'[:2],e9617c98e85ef7ecbf271cf1942d75f0,javascript,70,f
+1238,protected void finalize() throws Throwable{...},e9617c98e85ef7ecbf271cf1942d75f0,java,70,t
+1239,int foo;,e9617c98e85ef7ecbf271cf1942d75f0,type declaration,70,t
+1240,phone book,e9617c98e85ef7ecbf271cf1942d75f0,map,70,t
+1241,dictionary,e9617c98e85ef7ecbf271cf1942d75f0,map,70,t
+1242,#Comments,e9617c98e85ef7ecbf271cf1942d75f0,python,70,t
+1243,runtime type verification,e9617c98e85ef7ecbf271cf1942d75f0,dynamic typing,70,t
+1244,index,e9617c98e85ef7ecbf271cf1942d75f0,list,70,f
+962,branch,547d36d72f59dad36554616d320e2ade,git,53,t
+963,return *this;,547d36d72f59dad36554616d320e2ade,c/c++,53,t
+964,(1:3:21).*2,547d36d72f59dad36554616d320e2ade,matlab,53,t
+965,quicksort (average case),547d36d72f59dad36554616d320e2ade,O(n*log(n)),53,t
+1023,return *this;,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,57,t
+1024,Animal puppy = new Dog();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,57,f
+1025,Foo implements Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,class,57,f
+1026,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,57,t
+1027,dictionary,a9baba4f0dbf6ef0f2bcef4502848a9f,list,57,f
+1028,linear search (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),57,t
+1029,cleaning up unused memory,a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,57,t
+1030,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,list,57,t
+1031,Thread synchronization primitive,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,57,t
+1032,CLR,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,57,f
+1033,int foo;,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,57,t
+1034,merge sort,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),57,t
+1035,quicksort (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),57,t
+1036,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,python,57,f
+1037,definition of similar objects,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,57,f
+1038,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,57,f
+1039,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,58,f
+1040,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,58,f
+1041,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,58,f
+1042,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,58,f
+1043,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,58,f
+1044,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),58,f
+1045,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,58,f
+1046,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,58,f
+1047,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,58,f
+1048,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,58,f
+1049,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,58,f
+1050,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),58,f
+1051,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),58,f
+1052,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,58,f
+1053,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,58,f
+1054,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,58,f
+1071,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,60,f
+1072,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,60,f
+1073,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,60,f
+1074,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,60,f
+1075,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,60,f
+1076,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),60,f
+1077,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,60,f
+1078,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,60,f
+1079,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,60,f
+1080,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,60,f
+1081,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,60,f
+1082,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),60,f
+1083,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),60,f
+1084,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,60,f
+1085,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,60,f
+1086,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,60,f
+1087,return *this;,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,61,t
+1088,Animal puppy = new Dog();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,61,f
+1089,Foo implements Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,class,61,f
+1090,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,61,t
+1091,dictionary,a9baba4f0dbf6ef0f2bcef4502848a9f,list,61,f
+1092,linear search (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),61,t
+1093,cleaning up unused memory,a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,61,t
+1094,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,list,61,t
+1095,Thread synchronization primitive,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,61,t
+1096,CLR,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,61,f
+1097,int foo;,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,61,t
+1098,merge sort,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),61,t
+1099,quicksort (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),61,t
+1100,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,python,61,f
+1101,definition of similar objects,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,61,f
+1102,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,61,f
+1103,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,62,f
+1104,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,62,f
+1105,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,62,f
+1106,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,62,f
+1107,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,62,f
+1108,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),62,f
+1109,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,62,f
+1110,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,62,f
+1111,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,62,f
+1112,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,62,f
+1113,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,62,f
+1114,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),62,f
+1115,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),62,f
+1116,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,62,f
+1117,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,62,f
+1118,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,62,f
+1119,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,63,f
+1120,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,63,f
+1121,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,63,f
+1122,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,63,f
+1123,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,63,f
+1124,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),63,f
+1125,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,63,f
+1126,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,63,f
+980,for(int foo : bar){...},ac102da2687ef1c91c954e2e7471e629,iteration,54,t
+981,Dijkstra's algorithm,7798828ddb965eff921c178ff81c3987,O(log(n)),55,f
+982,insert/delete from a heap,7798828ddb965eff921c178ff81c3987,O(log(n)),55,t
+983,family geneology,7798828ddb965eff921c178ff81c3987,tree,55,t
+984,class with some missing implementation,7798828ddb965eff921c178ff81c3987,abstract class,55,t
+985,Foo foo = new Foo();,7798828ddb965eff921c178ff81c3987,constructor,55,t
+986,for(int foo : bar){...},7798828ddb965eff921c178ff81c3987,iteration,55,t
+987,throws,7798828ddb965eff921c178ff81c3987,java,55,t
+988,type erasure,7798828ddb965eff921c178ff81c3987,java,55,t
+989,binary search (average case),7798828ddb965eff921c178ff81c3987,O(log(n)),55,t
+990,package org.foo,7798828ddb965eff921c178ff81c3987,java,55,t
+991,linear search (average case),7798828ddb965eff921c178ff81c3987,O(n),55,t
+992,dictionary,7798828ddb965eff921c178ff81c3987,map,55,t
+993,quicksort (average case),7798828ddb965eff921c178ff81c3987,O(n*log(n)),55,t
+994,steps in a recipe,7798828ddb965eff921c178ff81c3987,list,55,t
+995,a.equals(b),7798828ddb965eff921c178ff81c3987,java,55,t
+996,people you know,7798828ddb965eff921c178ff81c3987,list,55,f
+997,public T head(List<T> lst){ return lst.get(0);},7798828ddb965eff921c178ff81c3987,generic types,55,t
+998,bubble sort,7798828ddb965eff921c178ff81c3987,O(n^2),55,f
+999,class Foo extends Bar,7798828ddb965eff921c178ff81c3987,java,55,t
+1000,Animal puppy = new Dog();,7798828ddb965eff921c178ff81c3987,polymorphism,55,t
+1001,filesystem,7798828ddb965eff921c178ff81c3987,tree,55,t
+1002,Dijkstra's algorithm,7798828ddb965eff921c178ff81c3987,O(log(n)),56,f
+1003,insert/delete from a heap,7798828ddb965eff921c178ff81c3987,O(log(n)),56,t
+1004,family geneology,7798828ddb965eff921c178ff81c3987,tree,56,t
+1005,class with some missing implementation,7798828ddb965eff921c178ff81c3987,abstract class,56,t
+1006,Foo foo = new Foo();,7798828ddb965eff921c178ff81c3987,constructor,56,t
+1007,for(int foo : bar){...},7798828ddb965eff921c178ff81c3987,iteration,56,t
+1008,throws,7798828ddb965eff921c178ff81c3987,java,56,t
+1009,type erasure,7798828ddb965eff921c178ff81c3987,java,56,t
+1010,binary search (average case),7798828ddb965eff921c178ff81c3987,O(log(n)),56,t
+1011,package org.foo,7798828ddb965eff921c178ff81c3987,java,56,t
+1012,linear search (average case),7798828ddb965eff921c178ff81c3987,O(n),56,t
+1013,dictionary,7798828ddb965eff921c178ff81c3987,map,56,t
+1014,quicksort (average case),7798828ddb965eff921c178ff81c3987,O(n*log(n)),56,t
+1015,steps in a recipe,7798828ddb965eff921c178ff81c3987,list,56,t
+1016,a.equals(b),7798828ddb965eff921c178ff81c3987,java,56,t
+1017,people you know,7798828ddb965eff921c178ff81c3987,list,56,f
+1018,public T head(List<T> lst){ return lst.get(0);},7798828ddb965eff921c178ff81c3987,generic types,56,t
+1019,bubble sort,7798828ddb965eff921c178ff81c3987,O(n^2),56,f
+1020,class Foo extends Bar,7798828ddb965eff921c178ff81c3987,java,56,t
+1021,Animal puppy = new Dog();,7798828ddb965eff921c178ff81c3987,polymorphism,56,t
+1022,filesystem,7798828ddb965eff921c178ff81c3987,tree,56,t
+1135,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,64,f
+1136,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,64,f
+1137,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,64,f
+1138,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,64,f
+1139,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,64,f
+1140,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),64,f
+1141,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,64,f
+1142,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,64,f
+1143,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,64,f
+1144,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,64,f
+1145,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,64,f
+1146,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),64,f
+1147,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),64,f
+1148,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,64,f
+1149,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,64,f
+1150,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,64,f
+1261,throws,47906c19b74766808e8b11dde25b83b6,java,72,t
+1262,"[1,2;3,4;]*[5,6;7,8;]",47906c19b74766808e8b11dde25b83b6,matlab,72,t
+1263,package org.foo,47906c19b74766808e8b11dde25b83b6,java,72,t
+1264,protected void finalize() throws Throwable{...},47906c19b74766808e8b11dde25b83b6,java,72,t
+1265,bubble sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),72,f
+1266,filesystem,47906c19b74766808e8b11dde25b83b6,tree,72,t
+1267,varargin,47906c19b74766808e8b11dde25b83b6,c#,72,f
+1268,linear search (average case),47906c19b74766808e8b11dde25b83b6,O(n),72,t
+1269,dictionary,47906c19b74766808e8b11dde25b83b6,map,72,t
+1270,quicksort (average case),47906c19b74766808e8b11dde25b83b6,O(n),72,f
+1271,bookmarks,47906c19b74766808e8b11dde25b83b6,list,72,f
+1272,"public void foo(){...}
+public void foo(int bar){...}",47906c19b74766808e8b11dde25b83b6,overloading,72,t
+1273,merge sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),72,f
+1274,back button history in browser,47906c19b74766808e8b11dde25b83b6,list,72,t
+1275,"public getFoo(){
+  return this.foo;
+}",47906c19b74766808e8b11dde25b83b6,polymorphism,72,f
+1276,int foo;,47906c19b74766808e8b11dde25b83b6,type declaration,72,t
+1277,throws,47906c19b74766808e8b11dde25b83b6,java,73,t
+1278,"[1,2;3,4;]*[5,6;7,8;]",47906c19b74766808e8b11dde25b83b6,matlab,73,t
+1279,package org.foo,47906c19b74766808e8b11dde25b83b6,java,73,t
+1280,protected void finalize() throws Throwable{...},47906c19b74766808e8b11dde25b83b6,java,73,t
+1281,bubble sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),73,f
+1282,filesystem,47906c19b74766808e8b11dde25b83b6,tree,73,t
+1283,varargin,47906c19b74766808e8b11dde25b83b6,c#,73,f
+1284,linear search (average case),47906c19b74766808e8b11dde25b83b6,O(n),73,t
+1285,dictionary,47906c19b74766808e8b11dde25b83b6,map,73,t
+1286,quicksort (average case),47906c19b74766808e8b11dde25b83b6,O(n),73,f
+1287,bookmarks,47906c19b74766808e8b11dde25b83b6,list,73,f
+1288,"public void foo(){...}
+public void foo(int bar){...}",47906c19b74766808e8b11dde25b83b6,overloading,73,t
+1289,merge sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),73,f
+1290,back button history in browser,47906c19b74766808e8b11dde25b83b6,list,73,t
+1291,"public getFoo(){
+  return this.foo;
+}",47906c19b74766808e8b11dde25b83b6,polymorphism,73,f
+1292,int foo;,47906c19b74766808e8b11dde25b83b6,type declaration,73,t
+1293,throws,47906c19b74766808e8b11dde25b83b6,java,74,t
+1294,"[1,2;3,4;]*[5,6;7,8;]",47906c19b74766808e8b11dde25b83b6,matlab,74,t
+1127,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,63,f
+1128,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,63,f
+1129,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,63,f
+1130,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),63,f
+1131,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),63,f
+1132,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,63,f
+1133,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,63,f
+1134,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,63,f
+1151,for(int foo : bar){...},a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,65,f
+1152,class with some missing implementation,a9baba4f0dbf6ef0f2bcef4502848a9f,class,65,f
+1153,class A: public B{...};,a9baba4f0dbf6ef0f2bcef4502848a9f,class,65,f
+1154,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,65,f
+1155,a instanceof MyClass,a9baba4f0dbf6ef0f2bcef4502848a9f,list,65,f
+1156,namespace org.foo,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),65,f
+1157,"public getFoo(){
+  return this.foo;
+}",a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,65,f
+1158,async/await,a9baba4f0dbf6ef0f2bcef4502848a9f,list,65,f
+1159,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,65,f
+1160,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,65,f
+1161,var myList = new List<int>();,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,65,f
+1162,C& C::(operator=(const C&);,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),65,f
+1163,type erasure,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),65,f
+1164,Foo extends Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,python,65,f
+1165,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,65,f
+1166,oracle,a9baba4f0dbf6ef0f2bcef4502848a9f,class,65,f
+1167,return *this;,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,66,t
+1168,Animal puppy = new Dog();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,66,f
+1169,Foo implements Bar,a9baba4f0dbf6ef0f2bcef4502848a9f,class,66,f
+1170,compile time type verification,a9baba4f0dbf6ef0f2bcef4502848a9f,static typing,66,t
+1171,dictionary,a9baba4f0dbf6ef0f2bcef4502848a9f,list,66,f
+1172,linear search (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n),66,t
+1173,cleaning up unused memory,a9baba4f0dbf6ef0f2bcef4502848a9f,garbage collection,66,t
+1174,steps in a recipe,a9baba4f0dbf6ef0f2bcef4502848a9f,list,66,t
+1175,Thread synchronization primitive,a9baba4f0dbf6ef0f2bcef4502848a9f,mutex,66,t
+1176,CLR,a9baba4f0dbf6ef0f2bcef4502848a9f,c/c++,66,f
+1177,int foo;,a9baba4f0dbf6ef0f2bcef4502848a9f,type declaration,66,t
+1178,merge sort,a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),66,t
+1179,quicksort (average case),a9baba4f0dbf6ef0f2bcef4502848a9f,O(n*log(n)),66,t
+1180,Foo::~Foo() {};,a9baba4f0dbf6ef0f2bcef4502848a9f,python,66,f
+1181,definition of similar objects,a9baba4f0dbf6ef0f2bcef4502848a9f,overloading,66,f
+1182,Foo foo = new Foo();,a9baba4f0dbf6ef0f2bcef4502848a9f,class,66,f
+1245,throws,47906c19b74766808e8b11dde25b83b6,java,71,t
+1246,"[1,2;3,4;]*[5,6;7,8;]",47906c19b74766808e8b11dde25b83b6,matlab,71,t
+1247,package org.foo,47906c19b74766808e8b11dde25b83b6,java,71,t
+1248,protected void finalize() throws Throwable{...},47906c19b74766808e8b11dde25b83b6,java,71,t
+1249,bubble sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),71,f
+1250,filesystem,47906c19b74766808e8b11dde25b83b6,tree,71,t
+1251,varargin,47906c19b74766808e8b11dde25b83b6,c#,71,f
+1252,linear search (average case),47906c19b74766808e8b11dde25b83b6,O(n),71,t
+1253,dictionary,47906c19b74766808e8b11dde25b83b6,map,71,t
+1254,quicksort (average case),47906c19b74766808e8b11dde25b83b6,O(n),71,f
+1255,bookmarks,47906c19b74766808e8b11dde25b83b6,list,71,f
+1256,"public void foo(){...}
+public void foo(int bar){...}",47906c19b74766808e8b11dde25b83b6,overloading,71,t
+1257,merge sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),71,f
+1258,back button history in browser,47906c19b74766808e8b11dde25b83b6,list,71,t
+1259,"public getFoo(){
+  return this.foo;
+}",47906c19b74766808e8b11dde25b83b6,polymorphism,71,f
+1260,int foo;,47906c19b74766808e8b11dde25b83b6,type declaration,71,t
+1295,package org.foo,47906c19b74766808e8b11dde25b83b6,java,74,t
+1296,protected void finalize() throws Throwable{...},47906c19b74766808e8b11dde25b83b6,java,74,t
+1297,bubble sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),74,f
+1298,filesystem,47906c19b74766808e8b11dde25b83b6,tree,74,t
+1299,varargin,47906c19b74766808e8b11dde25b83b6,c#,74,f
+1300,linear search (average case),47906c19b74766808e8b11dde25b83b6,O(n),74,t
+1301,dictionary,47906c19b74766808e8b11dde25b83b6,map,74,t
+1302,quicksort (average case),47906c19b74766808e8b11dde25b83b6,O(n),74,f
+1303,bookmarks,47906c19b74766808e8b11dde25b83b6,list,74,f
+1304,"public void foo(){...}
+public void foo(int bar){...}",47906c19b74766808e8b11dde25b83b6,overloading,74,t
+1305,merge sort,47906c19b74766808e8b11dde25b83b6,O(log(n)),74,f
+1306,back button history in browser,47906c19b74766808e8b11dde25b83b6,list,74,t
+1307,"public getFoo(){
+  return this.foo;
+}",47906c19b74766808e8b11dde25b83b6,polymorphism,74,f
+1308,int foo;,47906c19b74766808e8b11dde25b83b6,type declaration,74,t
