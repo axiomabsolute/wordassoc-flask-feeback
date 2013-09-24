@@ -106,7 +106,10 @@ def calculateQuestionsAnsweredPerSecond():
     pass
 
 def calculateAverageNumberOfWrongAnswers():
-    return 1.0*len([x for x in filteredAnswers if filteredAnswers[x]['correct'] == 't'])/len(filteredAnswers)*1.0
+    return 1.0*len([x for x in filteredAnswers if filteredAnswers[x]['correct'] == 'f'])/len(users)*1.0
+
+def calculateAverageNumberOfRightAnswers():
+    return 1.0*len([x for x in filteredAnswers if filteredAnswers[x]['correct'] == 't'])/len(users)*1.0
 
 def calculateNumberOfAnswers():
     return len(filteredAnswers)
@@ -128,3 +131,4 @@ readQuestions()
 print("Total number of answers: %s" % calculateNumberOfAnswers())
 print("Total number of players: %s" % calculateNumberOfPlayers())
 print("Average number of wrong answers: %s" % calculateAverageNumberOfWrongAnswers())
+print("Average number of right answers: %s" % calculateAverageNumberOfRightAnswers())
