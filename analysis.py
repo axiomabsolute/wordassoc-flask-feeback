@@ -75,6 +75,8 @@ def readQuestions():
         for row in questionreader:
             questions[row[0]] = {"text": row[0], "correctAnswer": row[1], "questionType": row[2]}
 
+
+# Analysis
 def findBestQuestion():
     for answer in answers:
         pass
@@ -104,7 +106,7 @@ def calculateQuestionsAnsweredPerSecond():
     pass
 
 def calculateAverageNumberOfWrongAnswers():
-    pass
+    return 1.0*len([x for x in filteredAnswers if filteredAnswers[x]['correct'] == 't'])/len(filteredAnswers)*1.0
 
 def calculateNumberOfAnswers():
     return len(filteredAnswers)
@@ -115,6 +117,7 @@ def calculateNumberOfPlayers():
 # Preparation
 # anonymize()
 
+# Careful, order matters here...
 readGames()
 readMaxGamesByUser()
 readUsers()
@@ -124,3 +127,4 @@ readQuestions()
 # Run analyses
 print("Total number of answers: %s" % calculateNumberOfAnswers())
 print("Total number of players: %s" % calculateNumberOfPlayers())
+print("Average number of wrong answers: %s" % calculateAverageNumberOfWrongAnswers())
