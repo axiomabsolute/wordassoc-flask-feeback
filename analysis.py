@@ -78,7 +78,7 @@ def readQuestions():
 
 
 # Analysis
-def findAccuracyByQuestionHist():
+def findAccuracyByQuestion():
     answerCountsByQuestion = collections.defaultdict(lambda: 0)
     answerCountsCorrectByQuestion = collections.defaultdict(lambda: 0)
     for answer in filteredAnswers:
@@ -102,7 +102,7 @@ def findQuestionsAnsweredCorrectDistribution():
     return numpy.histogram(correctByGameId.values())
 
 
-def percentCorrectAnswersByCategoryHist():
+def percentCorrectAnswersByCategory():
     categoryGames = collections.defaultdict(lambda: set())
     categoryTotals = collections.defaultdict(lambda: 0)
     for answer in filteredAnswers:
@@ -116,16 +116,16 @@ def percentCorrectAnswersByCategoryHist():
             if filteredAnswers[answer]["correct"] != 't':
                 continue
             categoryGames[questions[filteredAnswers[answer]["question_id"]]["questionType"]].add(filteredAnswers[answer]["game_id"])
-    categoryHist = {category: (1.0*len(categoryGames[category]))/(1.0*categoryTotals[category]) for category in categoryGames}
-    return sorted(categoryHist.items(), lambda x, y: -1 if x[1]<y[1] else 1, reverse=True)
+    accuracyByCategory = {category: (1.0*len(categoryGames[category]))/(1.0*categoryTotals[category]) for category in categoryGames}
+    return sorted(accuracyByCategory.items(), lambda x, y: -1 if x[1]<y[1] else 1, reverse=True)
 
 def findNumberOfGamesWhereQuestionsFromEachTechWereAnswered():
     categoryGames = collections.defaultdict(lambda: set())
     for answer in filteredAnswers:
         if questions[filteredAnswers[answer]["question_id"]]["questionType"] == 'snippetToTech':
             categoryGames[questions[filteredAnswers[answer]["question_id"]]['correctAnswer']].add(filteredAnswers[answer]["game_id"])
-    categoryHist = {category: len(categoryGames[category]) for category in categoryGames}
-    return sorted(categoryHist.items(), lambda x, y: x[1]-y[1], reverse=True)
+    presenceInGameByCategory = {category: len(categoryGames[category]) for category in categoryGames}
+    return sorted(presenceInGameByCategory.items(), lambda x, y: x[1]-y[1], reverse=True)
 
 def calculateQuestionsAnsweredPerMinute():
     return ((1.0*len(filteredAnswers))/(1.0*len(games)))*(60.0/90.0)
@@ -159,31 +159,31 @@ print("Average number of wrong answers: %s" % calculateAverageNumberOfWrongAnswe
 print("Average number of right answers: %s" % calculateAverageNumberOfRightAnswers())
 print("Average number of answers per minute: %s" % calculateQuestionsAnsweredPerMinute())
 
-print("Histogram of techs by number of games:")
-answersByTechHist = findNumberOfGamesWhereQuestionsFromEachTechWereAnswered()
-for kv in answersByTechHist:
+print("Techs by number of games it appears in:")
+answersByTech = findNumberOfGamesWhereQuestionsFromEachTechWereAnswered()
+for kv in answersByTech:
     print("\t%s : %s" % kv)
 print("\t--------------------")
-print("\tMost popular tech -  %s : %s" % answersByTechHist[0])
-print("\tLeast popular tech - %s : %s" % answersByTechHist[-1])
+print("\tMost popular tech -  %s : %s" % answersByTech[0])
+print("\tLeast popular tech - %s : %s" % answersByTech[-1])
 print("\t--------------------")
 
 print("Percentage of correct answers by category:")
-correctByCategoryHist = percentCorrectAnswersByCategoryHist()
-for kv in correctByCategoryHist:
+correctbyCategory = percentCorrectAnswersByCategory()
+for kv in correctbyCategory:
     print("\t%s : %s" % kv)
 print("\t--------------------")
-print("\tBest category - %s : %s" % correctByCategoryHist[0])
-print("\tWorst category - %s : %s" % correctByCategoryHist[-1])
+print("\tBest category - %s : %s" % correctbyCategory[0])
+print("\tWorst category - %s : %s" % correctbyCategory[-1])
 print("\t--------------------")
 
 print("Question accuracy by question:")
-accuracyByQuestionHist = findAccuracyByQuestionHist()
+accuracyByQuestion = findAccuracyByQuestion()
 print("\t--------------------")
-print("\tBest question - %s : %s" % accuracyByQuestionHist[0])
-print("\tBest question not everyone got right - %s : %s" % [x for x in accuracyByQuestionHist if x[1] < 1.0][0])
-print("\tWorst question - %s : %s" % accuracyByQuestionHist[-1])
-print("\tWorst question someone got right - %s : %s" % [x for x in accuracyByQuestionHist if x[1] > 0][-1])
+print("\tBest question - %s : %s" % accuracyByQuestion[0])
+print("\tBest question not everyone got right - %s : %s" % [x for x in accuracyByQuestion if x[1] < 1.0][0])
+print("\tWorst question - %s : %s" % accuracyByQuestion[-1])
+print("\tWorst question someone got right - %s : %s" % [x for x in accuracyByQuestion if x[1] > 0][-1])
 print("\t--------------------")
 
 print("Distribution of Number of Correctly Answered Questions by Game:")
