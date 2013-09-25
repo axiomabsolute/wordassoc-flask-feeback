@@ -29,7 +29,7 @@ def anonymize():
             gamewriter = csv.writer(output, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n")
             for row in gamereader:
                 hasher = hashlib.md5()
-                hasher.update(row[1] + '8') # Note: Salt was added to this in the example provided to provide protection to anonymize the data.  Rerunning this on the data will produce different results
+                hasher.update(row[1]) # Note: Salt was added to this in the example provided to provide protection to anonymize the data.  Rerunning this on the data will produce different results
                 row[1] = hasher.hexdigest()
                 gamewriter.writerow(row)
 
@@ -78,12 +78,15 @@ def readQuestions():
 
 
 # Analysis
-def findBestQuestion():
-    for answer in answers:
-        pass
-
-def findWorstQuestion():
-    pass
+def findAccuracyByQuestionHist():
+    answerCountsByQuestion = collections.defaultdict(lambda: 0)
+    answerCountsCorrectByQuestion = collections.defaultdict(lambda: 0)
+    for answer in filteredAnswers:
+        answerCountsByQuestion[filteredAnswers[answer]["question_id"]] += 1
+        if filteredAnswers[answer]["correct"] == 't':
+            answerCountsCorrectByQuestion[filteredAnswers[answer]['question_id']] += 1
+    percentCorrectByQuestion = {question:(1.0*answerCountsCorrectByQuestion[question])/(1.0 * answerCountsByQuestion[question]) for question in answerCountsByQuestion}
+    return sorted(percentCorrectByQuestion.items(), lambda x, y: -1 if x[1]<y[1] else 1, reverse=True)
 
 def findQuestionsAnsweredDistribution():
     answeredByGame = collections.defaultdict(lambda: 0)
@@ -165,6 +168,24 @@ print("\tMost popular tech -  %s : %s" % answersByTechHist[0])
 print("\tLeast popular tech - %s : %s" % answersByTechHist[-1])
 print("\t--------------------")
 
+print("Percentage of correct answers by category:")
+correctByCategoryHist = percentCorrectAnswersByCategoryHist()
+for kv in correctByCategoryHist:
+    print("\t%s : %s" % kv)
+print("\t--------------------")
+print("\tBest category - %s : %s" % correctByCategoryHist[0])
+print("\tWorst category - %s : %s" % correctByCategoryHist[-1])
+print("\t--------------------")
+
+print("Question accuracy by question:")
+accuracyByQuestionHist = findAccuracyByQuestionHist()
+print("\t--------------------")
+print("\tBest question - %s : %s" % accuracyByQuestionHist[0])
+print("\tBest question not everyone got right - %s : %s" % [x for x in accuracyByQuestionHist if x[1] < 1.0][0])
+print("\tWorst question - %s : %s" % accuracyByQuestionHist[-1])
+print("\tWorst question someone got right - %s : %s" % [x for x in accuracyByQuestionHist if x[1] > 0][-1])
+print("\t--------------------")
+
 print("Distribution of Number of Correctly Answered Questions by Game:")
 correctPerGameHist = findQuestionsAnsweredCorrectDistribution()
 print("\t%s\n\t%s" % correctPerGameHist)
@@ -188,11 +209,3 @@ try:
 except ImportError, e:
     print("\tMatplotlib not found")
 
-print("Percentage of correct answers by category:")
-correctByCategoryHist = percentCorrectAnswersByCategoryHist()
-for kv in correctByCategoryHist:
-    print("\t%s : %s" % kv)
-print("\t--------------------")
-print("\tBest category: %s : %s" % correctByCategoryHist[0])
-print("\tWorst category: %s : %s" % correctByCategoryHist[-1])
-print("\t--------------------")
