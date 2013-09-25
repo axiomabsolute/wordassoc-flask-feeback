@@ -208,5 +208,3 @@ try:
     plt.show()
 except ImportError, e:
     print("\tMatplotlib not found")
-
-print("%s vs %s" % (len(games), len(users)))
