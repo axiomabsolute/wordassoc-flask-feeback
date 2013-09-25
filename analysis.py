@@ -1,6 +1,7 @@
 import csv
 import hashlib
 import collections
+import numpy
 
 answers = {}
 filteredAnswers = {}
@@ -84,26 +85,47 @@ def findBestQuestion():
 def findWorstQuestion():
     pass
 
-def findBestCategory():
-    pass
-
-def findWorstCategory():
-    pass
-
 def findQuestionsAnsweredDistribution():
-    pass
+    answeredByGame = collections.defaultdict(lambda: 0)
+    for answer in filteredAnswers:
+        answeredByGame[filteredAnswers[answer]['game_id']] += 1
+    return numpy.histogram(answeredByGame.values())
 
 def findQuestionsAnsweredCorrectDistribution():
-    pass
+    correctByGameId = collections.defaultdict(lambda: 0)
+    for answer in filteredAnswers:
+        if filteredAnswers[answer]['correct'] == 't':
+            correctByGameId[filteredAnswers[answer]['game_id']] += 1
+    return numpy.histogram(correctByGameId.values())
 
-def findMostCommonCategory():
-    pass
 
-def findMostScarceCategory():
-    pass
+def percentCorrectAnswersByCategoryHist():
+    categoryGames = collections.defaultdict(lambda: set())
+    categoryTotals = collections.defaultdict(lambda: 0)
+    for answer in filteredAnswers:
+        if questions[filteredAnswers[answer]["question_id"]]["questionType"] == 'snippetToTech':
+            categoryTotals[questions[filteredAnswers[answer]["question_id"]]['correctAnswer']] += 1
+            if filteredAnswers[answer]["correct"] != 't':
+                continue
+            categoryGames[questions[filteredAnswers[answer]["question_id"]]['correctAnswer']].add(filteredAnswers[answer]["game_id"])
+        else:
+            categoryTotals[questions[filteredAnswers[answer]["question_id"]]['questionType']] += 1
+            if filteredAnswers[answer]["correct"] != 't':
+                continue
+            categoryGames[questions[filteredAnswers[answer]["question_id"]]["questionType"]].add(filteredAnswers[answer]["game_id"])
+    categoryHist = {category: (1.0*len(categoryGames[category]))/(1.0*categoryTotals[category]) for category in categoryGames}
+    return sorted(categoryHist.items(), lambda x, y: -1 if x[1]<y[1] else 1, reverse=True)
 
-def calculateQuestionsAnsweredPerSecond():
-    pass
+def findNumberOfGamesWhereQuestionsFromEachTechWereAnswered():
+    categoryGames = collections.defaultdict(lambda: set())
+    for answer in filteredAnswers:
+        if questions[filteredAnswers[answer]["question_id"]]["questionType"] == 'snippetToTech':
+            categoryGames[questions[filteredAnswers[answer]["question_id"]]['correctAnswer']].add(filteredAnswers[answer]["game_id"])
+    categoryHist = {category: len(categoryGames[category]) for category in categoryGames}
+    return sorted(categoryHist.items(), lambda x, y: x[1]-y[1], reverse=True)
+
+def calculateQuestionsAnsweredPerMinute():
+    return ((1.0*len(filteredAnswers))/(1.0*len(games)))*(60.0/90.0)
 
 def calculateAverageNumberOfWrongAnswers():
     return 1.0*len([x for x in filteredAnswers if filteredAnswers[x]['correct'] == 'f'])/len(users)*1.0
@@ -132,3 +154,45 @@ print("Total number of answers: %s" % calculateNumberOfAnswers())
 print("Total number of players: %s" % calculateNumberOfPlayers())
 print("Average number of wrong answers: %s" % calculateAverageNumberOfWrongAnswers())
 print("Average number of right answers: %s" % calculateAverageNumberOfRightAnswers())
+print("Average number of answers per minute: %s" % calculateQuestionsAnsweredPerMinute())
+
+print("Histogram of techs by number of games:")
+answersByTechHist = findNumberOfGamesWhereQuestionsFromEachTechWereAnswered()
+for kv in answersByTechHist:
+    print("\t%s : %s" % kv)
+print("\t--------------------")
+print("\tMost popular tech -  %s : %s" % answersByTechHist[0])
+print("\tLeast popular tech - %s : %s" % answersByTechHist[-1])
+print("\t--------------------")
+
+print("Distribution of Number of Correctly Answered Questions by Game:")
+correctPerGameHist = findQuestionsAnsweredCorrectDistribution()
+print("\t%s\n\t%s" % correctPerGameHist)
+
+try:
+    import matplotlib.pyplot as plt
+    plt.hist(correctHist[0], correctHist[1])
+    plt.show()
+except ImportError, e:
+    print("\tMatplotlib not found")
+
+
+print("Distribution of Number of Answered Questions by Game:")
+answeredHist = findQuestionsAnsweredDistribution()
+print("\t%s\n\t%s" % answeredHist)
+
+try:
+    import matplotlib.pyplot as plt
+    plt.hist(answeredHist[0], answeredHist[1])
+    plt.show()
+except ImportError, e:
+    print("\tMatplotlib not found")
+
+print("Percentage of correct answers by category:")
+correctByCategoryHist = percentCorrectAnswersByCategoryHist()
+for kv in correctByCategoryHist:
+    print("\t%s : %s" % kv)
+print("\t--------------------")
+print("\tBest category: %s : %s" % correctByCategoryHist[0])
+print("\tWorst category: %s : %s" % correctByCategoryHist[-1])
+print("\t--------------------")
