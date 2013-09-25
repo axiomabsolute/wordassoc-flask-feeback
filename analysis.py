@@ -128,7 +128,7 @@ def findNumberOfGamesWhereQuestionsFromEachTechWereAnswered():
     return sorted(presenceInGameByCategory.items(), lambda x, y: x[1]-y[1], reverse=True)
 
 def calculateQuestionsAnsweredPerMinute():
-    return ((1.0*len(filteredAnswers))/(1.0*len(games)))*(60.0/90.0)
+    return ((1.0*len(filteredAnswers))/(1.0*len(users)))*(60.0/90.0)
 
 def calculateAverageNumberOfWrongAnswers():
     return 1.0*len([x for x in filteredAnswers if filteredAnswers[x]['correct'] == 'f'])/len(users)*1.0
@@ -209,3 +209,4 @@ try:
 except ImportError, e:
     print("\tMatplotlib not found")
 
+print("%s vs %s" % (len(games), len(users)))
