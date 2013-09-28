@@ -1,0 +1,8 @@
+<svg height="600" width="200">
+	<g transform="translate(10,10)">
+		<rect height="351.4117647058824" style="stroke: #e6e6e6; stroke-width: 2px; fill: #00deff;" width="180" x="0" y="228.58823529411762"/>
+		<rect height="228.58823529411765" style="stroke: #e6e6e6; stroke-width: 2px; fill: #ff7d29;" width="180" x="0" y="-2.842170943040401e-14"/>
+		<text style="font-size: 20pt; font-family: Consolas, courier; fill: #666666; text-anchor: middle;" transform="translate(90, 404.2941176470588) rotate(-90)">60.6% Right</text>
+		<text style="font-size: 20pt; font-family: Consolas, courier; fill: #666666; text-anchor: middle;" transform="translate(90, 114.2941176470588) rotate(-90)">39.4% Wrong</text>
+	</g>
+</svg>

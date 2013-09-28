@@ -1,0 +1,22 @@
+<svg height="80" width="250">
+	<g transform="translate(30,5)">
+		<text style="text-anchor: middle; font-size: 20pt; font-family: FontAwesome; fill: #d2d2d2;" x="-5" y="34.5"> : </text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="17.5" y="11.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="52.5" y="11.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="87.5" y="11.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="122.5" y="11.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="157.5" y="11.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="192.5" y="11.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="17.5" y="34.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="52.5" y="34.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="87.5" y="34.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #a8e8ff;" width="35" x="122.5" y="34.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="157.5" y="34.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="192.5" y="34.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="17.5" y="57.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="52.5" y="57.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="87.5" y="57.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="122.5" y="57.5"></text>
+		<text height="23" style="text-anchor: start; font-family: FontAwesome; font-size: 18px; fill: #333333;" width="35" x="157.5" y="57.5"></text>
+	</g>
+</svg>

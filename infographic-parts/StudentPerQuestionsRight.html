@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+<html>
+  <head>
+    <link href="font-awesome.css" rel="stylesheet">
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
+
+    <script type="text/javascript">
+      var margin = { top: 5, right: 5, bottom: 5, left: 30 },
+          width = 250 - margin.left - margin.right,
+          height = 80 - margin.top - margin.bottom,
+          rows = 3,
+          cols = 6,
+          gridWidth = Math.floor(width / cols),
+          gridHeight = Math.floor(height / rows);
+
+      var data = [1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0];
+
+      var svg = d3.select("#chart").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var person = svg.append("text")
+            .text("\uf183 : ")
+            .attr("x", -5)
+            .attr("y", gridHeight*(rows/2))
+            .style("text-anchor", "middle")
+            .style("font-size", "20pt")
+            .style("font-family", "FontAwesome")
+            .style("fill", "#d2d2d2");
+
+      var icons = svg.selectAll(".questions")
+          .data(data)
+          .enter().append("text")
+          .text("\uf059")
+          .style("text-anchor", "start")
+          .style("font-family", "FontAwesome")
+          .style("font-size", "18px")
+          .style("fill", function(d){ if (d==1){ return "#A8E8FF"; } return "#333333"; })
+          .attr("width", gridWidth)
+          .attr("height", gridHeight)
+          .attr("x", function(d, i){ return ((i%cols)*gridWidth)+(gridWidth/2); })
+          .attr("y", function(d, i){ return (Math.floor(i/cols))*gridHeight + (gridHeight/2) });
+
+    </script>
+  </body>
+</html>

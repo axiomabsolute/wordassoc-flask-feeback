@@ -1,0 +1,136 @@
+<svg height="460" width="960">
+	<g transform="translate(10,10)">
+		<g class="pie" height="148" width="148">
+			<g transform="translate(78,220)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 20.84820920646857,71.00248004741327L12.396232501143475,42.217690839002486A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">45.5%</text>
+				</g>
+				<g class="arc">
+					<path d="M20.84820920646857,71.00248004741327A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 12.396232501143475,42.217690839002486Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">js</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(234,110)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 57.8555297025928,46.13824533759821L34.400585228568694,27.433551281815152A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">35.7%</text>
+				</g>
+				<g class="arc">
+					<path d="M57.8555297025928,46.13824533759821A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 34.400585228568694,27.433551281815152Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">git</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(390,110)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 59.28461814914943,44.28695124875432L35.25031349408885,26.33278182358365A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">35.2%</text>
+				</g>
+				<g class="arc">
+					<path d="M59.28461814914943,44.28695124875432A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 35.25031349408885,26.33278182358365Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">general</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(546,110)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 65.21098910460731,34.978949383862094L38.77410162976651,20.798294228242327A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">32.8%</text>
+				</g>
+				<g class="arc">
+					<path d="M65.21098910460731,34.978949383862094A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 38.77410162976651,20.798294228242327Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">java</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(702,110)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 70.8912239113857,21.223439220488707L42.151538541905005,12.619342239209502A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">29.6%</text>
+				</g>
+				<g class="arc">
+					<path d="M70.8912239113857,21.223439220488707A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 42.151538541905005,12.619342239209502Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">matlab</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(858,110)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 72.57811074983906,14.436683829193491L43.15455233774214,8.583974168709643A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">28.1%</text>
+				</g>
+				<g class="arc">
+					<path d="M72.57811074983906,14.436683829193491A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 43.15455233774214,8.583974168709643Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">c/c++</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(234,330)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 74,0L44,0A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">25.0%</text>
+				</g>
+				<g class="arc">
+					<path d="M74,0A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 44,0Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">c#</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(390,330)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 73.93332349914162,-3.14064903662796L43.96035451300313,-1.867412940697706A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">24.3%</text>
+				</g>
+				<g class="arc">
+					<path d="M73.93332349914162,-3.14064903662796A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 43.96035451300313,-1.867412940697706Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">big O</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(546,330)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 73.90080171834794,-3.8303401135437536L43.94101723793661,-2.2774995269719613A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">24.2%</text>
+				</g>
+				<g class="arc">
+					<path d="M73.90080171834794,-3.8303401135437536A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 43.94101723793661,-2.2774995269719613Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">data struct</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(702,330)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 73.61538743140723,-7.534901016191937L43.7713114457016,-4.480211415033044A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">23.4%</text>
+				</g>
+				<g class="arc">
+					<path d="M73.61538743140723,-7.534901016191937A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 43.7713114457016,-4.480211415033044Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">OOD</text>
+			</g>
+		</g>
+		<g class="pie" height="148" width="148">
+			<g transform="translate(858,330)">
+				<g class="arc correct-arc">
+					<path d="M4.531043509142796e-15,-74A74,74 0 0,1 72.87577372288546,-12.849965147454597L43.33154113252649,-7.640519817405436A44,44 0 0,0 2.69413397840923e-15,-44Z" style="fill: #a8e8ff;"/>
+					<text dy=".35em" font-family="ovo" style="fill: #333333; font-size: 18px; text-anchor: middle;" text-anchor="middle" transform="translate(36, -42.75) rotate(40)">22.2%</text>
+				</g>
+				<g class="arc">
+					<path d="M72.87577372288546,-12.849965147454597A74,74 0 1,1 -1.3593130527428388e-14,-74L-8.08240193522769e-15,-44A44,44 0 1,0 43.33154113252649,-7.640519817405436Z" style="fill: #333333;"/>
+				</g>
+				<text dy=".35em" style="text-anchor: middle; font-size: 18px; fill: #d2d2d2; font-family: ovo;">python</text>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
+
+    <script type="text/javascript">
+      var margin = { top: 10, right: 10, bottom: 10, left: 10 },
+          width = 300 - margin.left - margin.right,
+          height = 350 - margin.top - margin.bottom,
+          data = [{"label": "Right", "value": "10.3"}, {"label": "Wrong", "value": "6.7"}],
+          totalQuestions = 0,
+          agg = height
+          colors = ["#A8E8FF", "#333333"];
+
+      for (var i = 0; i<data.length; i++){
+        totalQuestions += parseFloat(data[i]["value"]);
+      }
+
+      data.forEach(function(d){
+        d["y0"] = agg;
+        agg -= (d["value"]/totalQuestions)*height;
+        d["y1"] = agg;
+        console.log(d["y0"]);
+        console.log(d["y1"]);
+      });
+
+      var svg = d3.select("#chart").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var bars = svg.selectAll(".bar")
+          .data(data)
+          .enter().append("rect")
+          .attr("width", width) 
+          .attr("height", function(d){ return d["y0"]-d["y1"];})
+          .attr("x", 0)
+          .attr("y", function(d){ return d["y1"]; })
+          .style("stroke", "#E6E6E6")
+          .style("stroke-width", "2px")
+          .style("fill", function(d,i){return colors[i];});
+
+      var labels = svg.selectAll(".labels")
+          .data(data)
+          .enter().append("text")
+          .text(function(d){ if (d["label"] == "Right") { return  "" + (100*(d['value']/totalQuestions)).toFixed(1) + "% " + d["label"];} return ""; })
+          .style("font-size", "20pt")
+          .style("font-family", "Consolas, courier")
+          .style("fill", "#666666")
+          .style("text-anchor", "middle")
+          .attr("transform", function(d){ return "translate(" + width/2 + ", " + (d["y1"] + (d["y0"] - d["y1"])/2) +") rotate(-90)";}) ;
+
+    </script>
+  </body>
+</html>

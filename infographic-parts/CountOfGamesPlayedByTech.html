@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
+
+    <script type="text/javascript">
+      var margin = { top: 5, right: 30, bottom: 150, left: 50 },
+          width = 960 - margin.left - margin.right,
+          height = 960 - margin.top - margin.bottom,
+          rows = 24,
+          cols = 7,
+          gridWidth = Math.floor(height / rows),
+          gridHeight = Math.floor(height / rows)/2,
+          buckets = 9,
+          countLabels = [],
+          techs = ["Java", "C/C++", "Matlab", "Git", "Python", "Javascript", "C#"];
+
+    for (var k = 1; k<=rows; k+=2) {
+      countLabels.push("" + (rows - k));
+    }
+
+      var data = d3.tsv.parse("tech\tcount\nJava\t23\nC/C++\t12\nMatlab\t8\nGit\t6\nPython\t6\nJavaScript\t5\nC#\t4");
+
+      var svg = d3.select("#chart").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var countLabels = svg.selectAll(".countLabel")
+          .data(countLabels)
+          .enter().append("text")
+            .text(function (d) { return d; })
+            .attr("x", 0)
+            .attr("y", function (d, i) { return (2*i+1) * gridHeight; })
+            .style("text-anchor", "end")
+            .style("font-size", "9pt")
+            .style("font-family", "Consolas, courier")
+            .style("fill", "#d2d2d2")
+            .attr("transform", "translate(-6," + gridHeight / 1.5 + ")")
+            .attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "countLabel mono axis axis-workweek" : "countLabel mono axis"); });
+
+      var techLabels = svg.selectAll(".techLabel")
+          .data(techs)
+          .enter().append("text")
+            .text(function(d) { return d; })
+            .style("text-anchor", "end")
+            .style("font-size", "18pt")
+            .style("font-family", "Consolas, courier")
+            .style("fill", "#d2d2d2")
+            .attr("transform", function(d,i){return "translate(" + ((i*gridWidth)+(gridWidth / 2)) + ", " + (((rows + 1)*gridHeight) - 12) + ") rotate(-90)"})
+            .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "techLabel mono axis axis-worktime" : "techLabel mono axis"); });
+
+      var bars = svg.selectAll(".bar")
+          .data(data)
+          .enter().append("g");
+
+      for (var j = 1; j<=rows; j++){
+        bars.append("rect")
+          .attr("x", function(d, i){ return (i) * gridWidth; })
+          .attr("y", function(d, i){ return (rows-j) * gridHeight; })
+          .attr("rx", 4)
+          .attr("ry", 4)
+          .style("stroke", "#E6E6E6")
+          .style("stroke-width", "2px")
+          .attr("width", gridWidth)
+          .attr("height", gridHeight)
+          .style("fill", function(d, i){if (parseInt(d.count) >= j){if (i == 0){return "#00deff";} if (i == techs.length - 1) { return "#FF7D29"; } return "#A8E8FF";} else {return "#333333"}});
+      }
+
+    </script>
+  </body>
+</html>

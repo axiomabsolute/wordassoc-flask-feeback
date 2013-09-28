@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <style>
+    svg {
+        padding: 10px 0 0 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>
+    var margin = { top: 10, right: 10, bottom: 10, left: 10 },
+          width = 960 - margin.left - margin.right,
+          height = 460 - margin.top - margin.bottom,
+          rows = 2,
+          cols = 6,
+          isOdd = false,
+          gridWidth = Math.floor(width / cols),
+          gridHeight = Math.floor(height / rows);
+
+    var radius = 74,
+        padding = 10;
+
+    var color = d3.scale.ordinal()
+        .range(["#A8E8FF", "#333333", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+    var arc = d3.svg.arc()
+        .outerRadius(radius)
+        .innerRadius(radius - 30);
+
+    var pie = d3.layout.pie()
+        .sort(null)
+        .value(function(d) {
+            return d.accuracy;
+        });
+
+    var data = [{
+        "tech": "js",
+        "correct": 0.454545454545
+    }, {
+        "tech": "git",
+        "correct": 0.357142857143
+    }, {
+        "tech": "general",
+        "correct": 0.352112676056
+    }, {
+        "tech": "java",
+        "correct": 0.328358208955
+    }, {
+        "tech": "matlab",
+        "correct": 0.296296296296
+    }, {
+        "tech": "c/c++",
+        "correct": 0.28125
+    }, {
+        "tech": "c#",
+        "correct": 0.25
+    }, {
+        "tech": "big O",
+        "correct": 0.243243243243
+    }, {
+        "tech": "data struct",
+        "correct": 0.241758241758
+    }, {
+        "tech": "OOD",
+        "correct": 0.233766233766
+    }, {
+        "tech": "python",
+        "correct": 0.222222222222
+    }];
+
+    if (rows*cols-1 == data.length){
+      isOdd = true;
+    }
+
+    data.forEach(function(d) {
+        d.incorrect = 1 - d["correct"];
+    });
+
+    color.domain(d3.keys(data[0]).filter(function(key) {
+        return key !== "tech";
+    }));
+
+    data.forEach(function(d) {
+        d.correctIncorrect = color.domain().map(function(isCorrect) {
+            return {
+                name: isCorrect,
+                accuracy: +d[isCorrect]
+            };
+        })
+    });
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var pies = svg.selectAll(".pie")
+        .data(data)
+        .enter().append("g")
+        .attr("class", "pie")
+        .attr("width", radius * 2)
+        .attr("height", radius * 2)
+        .append("g")
+        .attr("transform", function(d,i){
+          if (isOdd) {
+            if (i == 0) {
+              // If there's an odd number of things, shift the first guy out front, everyone else not in the first row gets moved down
+              return "translate(" + (((i%cols) * gridWidth)+(gridWidth/2)) + "," + ((rows*gridHeight)/2) + ")"
+            } else {
+              if (Math.floor(i/cols) == 0){
+                return "translate(" + (((i%cols) * gridWidth)+(gridWidth/2)) + "," + ((Math.floor(i/cols)*gridHeight)+(gridHeight/2)) + ")"
+              } else {
+                return "translate(" + ((((i+1)%cols) * gridWidth)+(gridWidth/2)) + "," + ((Math.floor(i/cols)*gridHeight)+(gridHeight/2)) + ")"
+              }
+            }
+          }
+          return "translate(" + (((i%cols) * gridWidth)+(gridWidth/2)) + "," + ((Math.floor(i/cols)*gridHeight)+(gridHeight/2)) + ")"
+      });
+
+    var g = pies.selectAll(".arc")
+        .data(function(d){
+          return pie(d.correctIncorrect);
+        })
+        .enter().append("g")
+        .attr("class", function(d){if (d.data.name == "correct"){ return "arc correct-arc"; } return "arc";});
+
+    g.append("path")
+        .attr("d", arc)
+        .style("fill", function(d) {
+            return color(d.data.name);
+        });
+
+    pies.selectAll(".correct-arc").append("text")
+          .text(function(d){ return "" + (d.data.accuracy * 100).toFixed(1) + "%"; })
+          .style("fill", "333333")
+          .style("font-size", "18px")
+          .attr("dy", ".35em")
+          .attr("font-family", "ovo")
+          .attr("text-anchor", "middle")
+          .attr("transform", function(d) { 
+            var medianAngle = (((d.endAngle-d.startAngle)/2 + d.startAngle)*180/Math.PI);
+            // console.log(medianAngle);
+            // console.log(arc.centroid(d));
+            // Hacky, but did this to find the minimum median angle and centroid.  Then set everyone to that.
+            if (medianAngle > 180) {
+                return "translate(36, -42.75) rotate(40)"; 
+            } else {
+                return "translate(36, -42.75) rotate(40)"; 
+            }
+          })
+          .style("text-anchor", "middle");
+
+    pies.append("text")
+        .attr("dy", ".35em")
+        .style("text-anchor", "middle")
+        .style("font-size", "18px")
+        .style("fill", "#d2d2d2")
+        .style("font-family", "ovo")
+        .text(function(d) {
+            return d.tech;
+        });
+    </script>
+</body>
+
+</html>
