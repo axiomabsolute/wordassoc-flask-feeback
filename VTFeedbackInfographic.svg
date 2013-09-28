@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="VTFeedbackInfographic.svg"
-   inkscape:export-filename="C:\Users\zeugm_000\Documents\VTFeedbackInfographic.png"
+   inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
    inkscape:export-xdpi="89.589996"
    inkscape:export-ydpi="89.589996">
   <defs
@@ -65,11 +65,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="754.04001"
-     inkscape:cy="-109.90395"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="143.74983"
+     inkscape:cy="773.09401"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -105,6 +105,10 @@
        orientation="1,0"
        position="1200,140"
        id="guide3778" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="600,700"
+       id="guide4254" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -122,20 +126,95 @@
      inkscape:label="Background"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#1f1f1f;fill-opacity:1"
        id="rect2985"
        width="1200.4094"
-       height="3301.7231"
+       height="3783.4397"
        x="0"
        y="2.3621826"
        ry="0"
+       inkscape:export-xdpi="179.94"
+       inkscape:export-ydpi="179.94"
+       inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3403"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(66,2)"
+       inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
+       inkscape:export-xdpi="89.970001"
+       inkscape:export-ydpi="89.970001"><flowRegion
+         id="flowRegion3405"><rect
+           id="rect3407"
+           width="972.27185"
+           height="552.42719"
+           x="106.06602"
+           y="2804.6611"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara3409"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">1. Map and Set data structures</flowPara><flowPara
+         id="flowPara3411"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">2. Classes vs Objects</flowPara><flowPara
+         id="flowPara3413"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">3. Static vs Dynamic typing</flowPara><flowPara
+         id="flowPara3415"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">4. Methods with generic type parameters</flowPara><flowPara
+         id="flowPara3417"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">5. Overloading vs Overriding</flowPara><flowPara
+         id="flowPara3419"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">6. Encapsulation</flowPara><flowPara
+         id="flowPara3421"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">7. Anonymous functions</flowPara><flowPara
+         id="flowPara3423"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">8. Identity vs Value equality</flowPara><flowPara
+         id="flowPara3425"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">9. Generators and Lazy Sequences</flowPara><flowPara
+         id="flowPara3427"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">10. Type erasure</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4218"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.970001"
        inkscape:export-ydpi="89.970001"
-       inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png" />
-  </g>
+       transform="translate(4,0)"><flowRegion
+         id="flowRegion4220"><rect
+           id="rect4222"
+           width="1000.5631"
+           height="560.36902"
+           x="99.43689"
+           y="3471.9932"
+           style="text-align:start;text-anchor:start"
+           ry="0.36901855" /></flowRegion><flowPara
+         id="flowPara4224"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">We'd like to thank the students of Virginia Tech who helped us gather this data to improve our interview process.  Take a look at how it was done on GitHub!</flowPara><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#a8e8ff;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
+         id="flowPara4232" /><flowPara
+         id="flowPara4226"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Ovo;-inkscape-font-specification:Ovo" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4236"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-16,0)"
+       inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
+       inkscape:export-xdpi="89.970001"
+       inkscape:export-ydpi="89.970001"><flowRegion
+         id="flowRegion4238"><rect
+           id="rect4240"
+           width="952.38446"
+           height="220.97087"
+           x="159.09903"
+           y="3657.6086" /></flowRegion><flowPara
+         id="flowPara4242"
+         style="font-size:32px;text-align:start;text-anchor:start;fill:#a8e8ff;fill-opacity:1"><flowSpan
+   style="fill:#ff7d29;fill-opacity:1"
+   id="flowSpan4246">This:</flowSpan> https://github.com/axiomabsolute/wordassoc-flask-feeback</flowPara><flowPara
+         id="flowPara4244"
+         style="font-size:32px;text-align:start;text-anchor:start;fill:#a8e8ff;fill-opacity:1"><flowSpan
+   style="fill:#ff7d29;fill-opacity:1"
+   id="flowSpan4248">The app: </flowSpan>https://github.com/axiomabsolute/wordassoc-flask</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
@@ -159,7 +238,7 @@
          id="flowPara3129"
          style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#3f3f3f;fill-opacity:1;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></flowPara></flowRoot>    <g
        id="g10905"
-       transform="matrix(0.8061777,0,0,0.8061777,16.570103,117.9551)">
+       transform="matrix(0.8061777,0,0,0.8061777,0.570103,117.9551)">
       <g
          transform="matrix(2.8221888,0,0,2.8221888,156.72866,545.67768)"
          id="g10834">
@@ -1973,7 +2052,7 @@
     <g
        style="display:inline"
        id="g13809"
-       transform="translate(1007.3125,960.25)">
+       transform="translate(1045.3125,960.25)">
       <g
          transform="translate(-913.3125,826.11218)"
          id="g13536">
@@ -2506,7 +2585,7 @@
        xml:space="preserve"
        id="flowRoot4144"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(1.8065354,0,0,1.8065354,-634.72317,406.49779)"><flowRegion
+       transform="matrix(1.8065354,0,0,1.8065354,-638.72317,406.49779)"><flowRegion
          id="flowRegion4146"><rect
            id="rect4148"
            width="664.24597"
@@ -2515,12 +2594,12 @@
            y="667.36218"
            style="fill:#d6d6d6;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara4150"
-         style="font-size:22.14183044000000000px;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Students answered questions about JavaScript more</flowPara><flowPara
-         style="font-size:22.14183044000000000px;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         style="font-size:22.14183044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">Students answered questions about JavaScript more</flowPara><flowPara
+         style="font-size:22.14183044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
          id="flowPara13992"><flowSpan
-   style="fill:#a8e8ff;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#a8e8ff;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
    id="flowSpan13996">accurately</flowSpan> than any other technology,</flowPara><flowPara
-         style="font-size:22.14183044000000000px;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         style="font-size:22.14183044px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
          id="flowPara13994">even though it was one of the least popular</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4184"
@@ -2534,7 +2613,7 @@
          id="flowPara4190" /></flowRoot>    <g
        id="g4255"
        style="fill:#d6d6d6;fill-opacity:1"
-       transform="matrix(1.9811257,0,0,1.9811257,120.06526,-101.23657)"
+       transform="matrix(1.9811257,0,0,1.9811257,122.06526,-101.23657)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996">
@@ -2550,13 +2629,13 @@
              width="545.39728"
              id="rect4178"
              style="fill:#d6d6d6;fill-opacity:1" /></flowRegion><flowPara
-           style="font-size:28.26675797000000000px;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-           id="flowPara4231">Students were 40% more likely to assocaite a phonebook than an index with the Map data structure, even though they're essentially the same thing.</flowPara></flowRoot>    </g>
+           style="font-size:28.26675797px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
+           id="flowPara4231">Students were 40% more likely to assocaite a phonebook or dictionary than an index with the Map data structure, even though they're all essentially the same thing.</flowPara></flowRoot>    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4273"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(1.3569893,0,0,2.2241825,52.860214,144.61706)"
+       transform="matrix(1.3569893,0,0,2.2241825,74.860214,144.61706)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996"><flowRegion
@@ -2603,7 +2682,7 @@
            x="-105.71429"
            y="263.79074"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FontAwesome;-inkscape-font-specification:FontAwesome" /></flowRegion><flowPara
-         id="flowPara3089"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3089" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3091"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
@@ -2613,7 +2692,7 @@
            height="152.85715"
            x="-160"
            y="226.6479" /></flowRegion><flowPara
-         id="flowPara3097"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3097" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3107"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
@@ -2633,7 +2712,7 @@
          sodipodi:role="line"
          id="tspan4253"
          x="831.42859"
-         y="148.07648"></tspan><tspan
+         y="148.07648" /><tspan
          sodipodi:role="line"
          id="tspan4255"
          x="831.42859"
@@ -2642,7 +2721,7 @@
        xml:space="preserve"
        id="flowRoot4120-0"
        style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#3f3f3f;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       transform="matrix(-2.5566707,0,0,-4.008729,1363.0306,4089.941)"
+       transform="matrix(-2.5566707,0,0,-4.008729,1385.0306,4089.941)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996"><flowRegion
@@ -2671,7 +2750,7 @@
        xml:space="preserve"
        id="flowRoot10930"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-556.875,-248.74826)"><flowRegion
+       transform="translate(-556.875,-252.74826)"><flowRegion
          id="flowRegion10932"><rect
            id="rect10934"
            width="663.125"
@@ -2679,16 +2758,16 @@
            x="596.875"
            y="997.67468" /></flowRegion><flowPara
          id="flowPara10940"
-         style="fill:#d2d2d2;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Students answered an average of 17 questions per game, with <flowSpan
-   style="fill:#a8e8ff;fill-opacity:1;-inkscape-font-specification:Ovo;font-family:Ovo;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">Students answered an average of 17 questions per game, with <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#a8e8ff;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
    id="flowSpan14000">10 correct</flowSpan> answers</flowPara></flowRoot>    <path
        style="fill:#d2d2d2;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 80,2634.3622 1000,0"
+       d="m 104,2634.3622 1000,0"
        id="path12422"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:type="star"
-       style="fill:#d2d2d2;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ff7d29;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path12424"
        sodipodi:sides="3"
        sodipodi:cx="-380"
@@ -2702,6 +2781,28 @@
        inkscape:randomized="0"
        d="m -380,2412.3623 -17.32051,-30 -17.32051,-30 34.64102,0 34.64102,0 -17.32051,30 z"
        inkscape:transform-center-y="10"
-       transform="translate(957.9495,255.53398)" />
+       transform="translate(981.9495,255.53398)" />
+    <path
+       style="fill:#d2d2d2;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 1098.1941,3409.2556 -999.999962,0"
+       id="path12422-1"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff7d29;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="path12424-7"
+       sodipodi:sides="3"
+       sodipodi:cx="-380"
+       sodipodi:cy="2372.3623"
+       sodipodi:r1="40"
+       sodipodi:r2="20"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -380,2412.3623 -17.32051,-30 -17.32051,-30 34.64102,0 34.64102,0 -17.32051,30 z"
+       inkscape:transform-center-y="-9.9999884"
+       transform="matrix(-1,0,0,-1,220.24464,5788.0838)" />
   </g>
 </svg>
