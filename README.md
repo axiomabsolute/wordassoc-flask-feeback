@@ -3,6 +3,8 @@ wordassoc-flask-feeback
 
 A collection of anonymized user data and a simple python script performing analysis to drive user feedback
 
+## Infographic
+
 ![VT CSRC Infographic](VTFeedbackInfographic.png)
 
 ## Requirements
