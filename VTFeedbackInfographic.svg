@@ -66,8 +66,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.45254834"
-     inkscape:cx="143.74983"
-     inkscape:cy="773.09401"
+     inkscape:cx="-200.96473"
+     inkscape:cy="-2143.7215"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -131,7 +131,7 @@
        style="fill:#1f1f1f;fill-opacity:1"
        id="rect2985"
        width="1200.4094"
-       height="3783.4397"
+       height="3927.0708"
        x="0"
        y="2.3621826"
        ry="0"
@@ -142,7 +142,7 @@
        xml:space="preserve"
        id="flowRoot3403"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(66,2)"
+       transform="translate(66,138)"
        inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.970001"
        inkscape:export-ydpi="89.970001"><flowRegion
@@ -179,7 +179,7 @@
        inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.970001"
        inkscape:export-ydpi="89.970001"
-       transform="translate(4,0)"><flowRegion
+       transform="translate(4,136)"><flowRegion
          id="flowRegion4220"><rect
            id="rect4222"
            width="1000.5631"
@@ -197,7 +197,7 @@
        xml:space="preserve"
        id="flowRoot4236"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-16,0)"
+       transform="translate(-16,136)"
        inkscape:export-filename="E:\Repos\wordassoc-flask-feeback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.970001"
        inkscape:export-ydpi="89.970001"><flowRegion
@@ -214,7 +214,39 @@
          id="flowPara4244"
          style="font-size:32px;text-align:start;text-anchor:start;fill:#a8e8ff;fill-opacity:1"><flowSpan
    style="fill:#ff7d29;fill-opacity:1"
-   id="flowSpan4248">The app: </flowSpan>https://github.com/axiomabsolute/wordassoc-flask</flowPara></flowRoot>  </g>
+   id="flowSpan4248">The app: </flowSpan>https://github.com/axiomabsolute/wordassoc-flask</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3456"
+       style="fill:#292929;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:0.67841679;font-family:Sans;font-style:normal;font-weight:normal;font-size:10px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;text-align:end"><flowRegion
+         id="flowRegion3458"><rect
+           id="rect3460"
+           width="1051.8213"
+           height="117.11456"
+           x="92.807762"
+           y="367.35248"
+           style="font-size:10px;fill:#292929;fill-opacity:0.67841679" /></flowRegion><flowPara
+         id="flowPara3462"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="112.69514"
+       y="393.86899"
+       id="text3464"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3466"
+         x="112.69514"
+         y="393.86899" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3468"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3470"><rect
+           id="rect3472"
+           width="1120.0002"
+           height="460"
+           x="60"
+           y="352.36218" /></flowRegion><flowPara
+         id="flowPara3474" /></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
@@ -224,7 +256,7 @@
        xml:space="preserve"
        id="flowRoot3123"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#3f3f3f;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       transform="matrix(3.2586028,-2.1330235,2.1330235,3.2586028,1581.9708,-1058.753)"
+       transform="matrix(3.2586028,-2.1330235,2.1330235,3.2586028,1581.9708,-706.753)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996"><flowRegion
@@ -236,158 +268,15 @@
            y="165.21933"
            style="fill:#3f3f3f;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara3129"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#3f3f3f;fill-opacity:1;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></flowPara></flowRoot>    <g
-       id="g10905"
-       transform="matrix(0.8061777,0,0,0.8061777,0.570103,117.9551)">
-      <g
-         transform="matrix(2.8221888,0,0,2.8221888,156.72866,545.67768)"
-         id="g10834">
-        <text
-           style="font-size:25px;text-anchor:middle;fill:#d2d2d2;font-family:FontAwesome"
-           x="-13.014246"
-           y="34.258701"
-           id="text10836"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="17.5"
-           y="11.5"
-           id="text10838"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="52.5"
-           y="11.5"
-           id="text10840"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="87.5"
-           y="11.5"
-           id="text10842"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="122.5"
-           y="11.5"
-           id="text10844"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="157.5"
-           y="11.5"
-           id="text10846"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="192.5"
-           y="11.5"
-           id="text10848"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="17.5"
-           y="34.5"
-           id="text10850"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="52.5"
-           y="34.5"
-           id="text10852"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="87.5"
-           y="34.5"
-           id="text10854"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
-           width="35"
-           x="122.5"
-           y="34.5"
-           id="text10856"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="157.5"
-           y="34.5"
-           id="text10858"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="192.5"
-           y="34.5"
-           id="text10860"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="17.5"
-           y="57.5"
-           id="text10862"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="52.5"
-           y="57.5"
-           id="text10864"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="87.5"
-           y="57.5"
-           id="text10866"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="122.5"
-           y="57.5"
-           id="text10868"></text>
-        <text
-           height="23"
-           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
-           width="35"
-           x="157.5"
-           y="57.5"
-           id="text10870"></text>
-        <flowRoot
-           transform="matrix(0.3543349,0,0,0.3543349,-55.534435,-194.76999)"
-           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-           id="flowRoot10897"
-           xml:space="preserve"><flowRegion
-             id="flowRegion10899"><rect
-               y="567.98718"
-               x="160.9375"
-               height="176.5625"
-               width="114.0625"
-               id="rect10901" /></flowRegion><flowPara
-             style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
-             id="flowPara10903">:</flowPara></flowRoot>      </g>
-    </g>
-  </g>
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#3f3f3f;fill-opacity:1;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"></flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Charts">
+     inkscape:label="Charts"
+     style="display:inline">
     <g
        id="g14002"
-       transform="translate(0,174)">
+       transform="translate(0,310)">
       <g
          inkscape:export-ydpi="89.589996"
          inkscape:export-xdpi="89.589996"
@@ -2052,7 +1941,7 @@
     <g
        style="display:inline"
        id="g13809"
-       transform="translate(1045.3125,960.25)">
+       transform="translate(1045.3125,1104.25)">
       <g
          transform="translate(-913.3125,826.11218)"
          id="g13536">
@@ -2465,6 +2354,151 @@
         </g>
       </g>
     </g>
+    <g
+       style="display:inline"
+       id="g10905"
+       transform="matrix(0.8061777,0,0,0.8061777,0.570103,253.9551)">
+      <g
+         transform="matrix(2.8221888,0,0,2.8221888,156.72866,545.67768)"
+         id="g10834">
+        <text
+           style="font-size:25px;text-anchor:middle;fill:#d2d2d2;font-family:FontAwesome"
+           x="-13.014246"
+           y="34.258701"
+           id="text10836"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="17.5"
+           y="11.5"
+           id="text10838"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="52.5"
+           y="11.5"
+           id="text10840"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="87.5"
+           y="11.5"
+           id="text10842"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="122.5"
+           y="11.5"
+           id="text10844"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="157.5"
+           y="11.5"
+           id="text10846"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="192.5"
+           y="11.5"
+           id="text10848"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="17.5"
+           y="34.5"
+           id="text10850"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="52.5"
+           y="34.5"
+           id="text10852"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="87.5"
+           y="34.5"
+           id="text10854"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#a8e8ff;font-family:FontAwesome"
+           width="35"
+           x="122.5"
+           y="34.5"
+           id="text10856"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="157.5"
+           y="34.5"
+           id="text10858"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="192.5"
+           y="34.5"
+           id="text10860"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="17.5"
+           y="57.5"
+           id="text10862"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="52.5"
+           y="57.5"
+           id="text10864"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="87.5"
+           y="57.5"
+           id="text10866"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="122.5"
+           y="57.5"
+           id="text10868"></text>
+        <text
+           height="23"
+           style="font-size:18px;text-anchor:start;fill:#333333;font-family:FontAwesome"
+           width="35"
+           x="157.5"
+           y="57.5"
+           id="text10870"></text>
+        <flowRoot
+           transform="matrix(0.3543349,0,0,0.3543349,-55.534435,-194.76999)"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot10897"
+           xml:space="preserve"><flowRegion
+             id="flowRegion10899"><rect
+               y="567.98718"
+               x="160.9375"
+               height="176.5625"
+               width="114.0625"
+               id="rect10901" /></flowRegion><flowPara
+             style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d2d2d2;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
+             id="flowPara10903">:</flowPara></flowRoot>      </g>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2526,12 +2560,12 @@
          style="font-size:33.1888504px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#d6d6d6;fill-opacity:1;font-family:Nova Square;-inkscape-font-specification:Nova Square">what you know?</flowPara></flowRoot>    <g
        id="g4244"
        style="fill:#d6d6d6;fill-opacity:1"
-       transform="translate(139.78906,602)"
+       transform="translate(139.78906,738)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996">
       <flowRoot
-         transform="translate(-112.28125,39.750289)"
+         transform="translate(-112.28125,31.750289)"
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
          id="flowRoot4102"
          xml:space="preserve"><flowRegion
@@ -2543,10 +2577,10 @@
              width="659.99554"
              id="rect4106" /></flowRegion><flowPara
            style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
-           id="flowPara4108">Java was the most popular by far</flowPara><flowPara
+           id="flowPara4108">Java was by far the most popular technology</flowPara><flowPara
            style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
            id="flowPara4110" /></flowRoot>      <flowRoot
-         transform="translate(-32.15625,37.594039)"
+         transform="translate(-46.156248,79.594039)"
          style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
          id="flowRoot4112"
          xml:space="preserve"><flowRegion
@@ -2585,7 +2619,7 @@
        xml:space="preserve"
        id="flowRoot4144"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(1.8065354,0,0,1.8065354,-638.72317,406.49779)"><flowRegion
+       transform="matrix(1.8065354,0,0,1.8065354,-638.72317,542.49779)"><flowRegion
          id="flowRegion4146"><rect
            id="rect4148"
            width="664.24597"
@@ -2613,7 +2647,7 @@
          id="flowPara4190" /></flowRoot>    <g
        id="g4255"
        style="fill:#d6d6d6;fill-opacity:1"
-       transform="matrix(1.9811257,0,0,1.9811257,122.06526,-101.23657)"
+       transform="matrix(1.9811257,0,0,1.9811257,122.06526,34.76343)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996">
@@ -2635,7 +2669,7 @@
        xml:space="preserve"
        id="flowRoot4273"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(1.3569893,0,0,2.2241825,74.860214,144.61706)"
+       transform="matrix(1.3569893,0,0,2.2241825,74.860214,280.61706)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996"><flowRegion
@@ -2721,7 +2755,7 @@
        xml:space="preserve"
        id="flowRoot4120-0"
        style="font-size:144px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#3f3f3f;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       transform="matrix(-2.5566707,0,0,-4.008729,1385.0306,4089.941)"
+       transform="matrix(-2.5566707,0,0,-4.008729,1385.0306,4225.941)"
        inkscape:export-filename="C:\Users\zeugm_000\Documents\Word-assoc-flask feedback\VTFeedbackInfographic.png"
        inkscape:export-xdpi="89.589996"
        inkscape:export-ydpi="89.589996"><flowRegion
@@ -2737,7 +2771,7 @@
        xml:space="preserve"
        id="flowRoot10778"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-3.4375,-13.933961)"><flowRegion
+       transform="translate(-3.4375,182.06604)"><flowRegion
          id="flowRegion10780"><rect
            id="rect10782"
            width="1113.125"
@@ -2746,11 +2780,11 @@
            y="364.86218"
            style="text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara10784"
-         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">29 students answered 494 questions about the technologies they know</flowPara></flowRoot>    <flowRoot
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#d6d6d6;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo">29 students answered 494 questions </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot10930"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-556.875,-252.74826)"><flowRegion
+       transform="translate(-556.875,-116.74826)"><flowRegion
          id="flowRegion10932"><rect
            id="rect10934"
            width="663.125"
@@ -2762,7 +2796,7 @@
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#a8e8ff;fill-opacity:1;font-family:Ovo;-inkscape-font-specification:Ovo"
    id="flowSpan14000">10 correct</flowSpan> answers</flowPara></flowRoot>    <path
        style="fill:#d2d2d2;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 104,2634.3622 1000,0"
+       d="m 104,2770.3622 1000,0"
        id="path12422"
        inkscape:connector-curvature="0" />
     <path
@@ -2781,10 +2815,10 @@
        inkscape:randomized="0"
        d="m -380,2412.3623 -17.32051,-30 -17.32051,-30 34.64102,0 34.64102,0 -17.32051,30 z"
        inkscape:transform-center-y="10"
-       transform="translate(981.9495,255.53398)" />
+       transform="translate(981.9495,391.53398)" />
     <path
        style="fill:#d2d2d2;fill-opacity:1;stroke:#d2d2d2;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 1098.1941,3409.2556 -999.999962,0"
+       d="m 1098.1941,3545.2556 -999.999962,0"
        id="path12422-1"
        inkscape:connector-curvature="0" />
     <path
@@ -2803,6 +2837,18 @@
        inkscape:randomized="0"
        d="m -380,2412.3623 -17.32051,-30 -17.32051,-30 34.64102,0 34.64102,0 -17.32051,30 z"
        inkscape:transform-center-y="-9.9999884"
-       transform="matrix(-1,0,0,-1,220.24464,5788.0838)" />
-  </g>
+       transform="matrix(-1,0,0,-1,222.24464,5924.0838)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3476"
+       style="display:inline;font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3478"><rect
+           id="rect3480"
+           width="1120"
+           height="360"
+           x="40"
+           y="352.36218"
+           ry="0" /></flowRegion><flowPara
+         id="flowPara3482"
+         style="font-size:42px;font-weight:normal;-inkscape-font-specification:Ovo;text-anchor:middle;text-align:center;font-family:Ovo;font-style:normal;font-stretch:normal;font-variant:normal;fill:#d6d6d6;fill-opacity:1">Sphere of Influence wrote a game to test students at the Virginia Tech CS Career Fair to get a better idea of what technologies they know and use</flowPara></flowRoot>  </g>
 </svg>
